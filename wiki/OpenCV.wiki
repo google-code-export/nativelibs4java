@@ -11,7 +11,8 @@ BSD-style : [http://opencvlibrary.svn.sourceforge.net/viewvc/opencvlibrary/trunk
 = Downloads = 
 
 Sources available from [http://sourceforge.net/projects/opencvlibrary/ OpenCV's SourceForge Project].
-No Java wrappers are available for download right now.
+
+No Java wrappers are available for download yet.
 
 = Building =
 
@@ -78,6 +79,35 @@ done
 #lipo -create i686/otherlibs/highgui/.libs/libhighgui.a ppc/otherlibs/highgui/.libs/libhighgui.a armv6/otherlibs/highgui/.libs/libhighgui.a -output libhighgui.a
 
 make -j 2
+}}}
+
+= JNAerator Config = 
+
+{{{
+-I	cv/include
+-I	cvaux/include
+-I	cxcore/include
+-I	ml/include
+-I	otherlibs/highgui/include
+
+-library cxcore 
+	cxcore/include/*.h
+	
+-library cv 
+	cv/include/*.h
+	
+-library cvaux 
+	cvaux/include/*.h
+	
+-library ml 
+	ml/include/*.h
+	
+-library highgui 
+	otherlibs/highgui/*.h
+
+-entry OpenCV
+
+-jar OpenCV.jar
 }}}
 
 = Quickstart = 
