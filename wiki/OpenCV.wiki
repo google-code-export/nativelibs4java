@@ -41,6 +41,7 @@ make clean
 make CXXFLAGS="-arch i386"
 cd ..
 
+# Taken from [http://ildan.blogspot.com/2008/07/creating-universal-static-opencv.html] :
 mkdir armv6
 cd armv6
 ../../opencv/configure ${CONFFLAGS} --host=arm-apple-darwin9 CXX=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/arm-apple-darwin9-g++-4.0.1 CXXFLAGS="-arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk" CXXCPP=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/cpp
@@ -48,12 +49,6 @@ make clean
 make
 cd ..
 
-# the last one is tough, so let's see the variables one by one:
-CXX=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/arm-apple-darwin9-g++-4.0.1
-CXXFLAGS="-arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk"
-CXXCPP=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/cpp
-
-# Ok. Now for the universal static libs:
 ARCHS="
 	ppc
 	i686
@@ -71,12 +66,6 @@ for lib in $LIBS ; do
 	libName=`echo $lib|sed 's/^.*\///'` 
 	echo lipo -create `for arch in $ARCHS ; do echo "$arch/$lib/src/.libs/lib$libName.a " ; done` -output lib$libName.a ;
 done
-
-#lipo -create i686/cv/src/.libs/libcv.a ppc/cv/src/.libs/libcv.a armv6/cv/src/.libs/libcv.a -output libcv.a
-#lipo -create i686/cxcore/src/.libs/libcxcore.a ppc/cxcore/src/.libs/libcxcore.a armv6/cxcore/src/.libs/libcxcore.a -output libcxcore.a
-#lipo -create i686/cvaux/src/.libs/libcvaux.a ppc/cvaux/src/.libs/libcvaux.a armv6/cvaux/src/.libs/libcvaux.a -output libcvaux.a
-#lipo -create i686/ml/src/.libs/libml.a ppc/ml/src/.libs/libml.a armv6/ml/src/.libs/libml.a -output libml.a
-#lipo -create i686/otherlibs/highgui/.libs/libhighgui.a ppc/otherlibs/highgui/.libs/libhighgui.a armv6/otherlibs/highgui/.libs/libhighgui.a -output libhighgui.a
 
 make -j 2
 }}}
