@@ -6,6 +6,8 @@ Highly experimental !
 
 Right now if you need decently stable Cocoa wrappings, you should download [http://rococoa.dev.java.net Rococoa].
 
+Discussion on these mappings and their use should take place on [https://rococoa.dev.java.net/servlets/ProjectMailingListList Rococoa's users mailing lists].
+
 Download the [http://ochafik.free.fr/Java/foundation.jar sneak preview] and give your opinion about it...
 
 = Building =
