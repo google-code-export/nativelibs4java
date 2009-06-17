@@ -1,4 +1,5 @@
 #summary Build instructions for Cocoa4Java
+#labels NativeLib
 
 = Introduction =
 
