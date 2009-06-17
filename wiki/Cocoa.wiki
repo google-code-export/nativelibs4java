@@ -1,0 +1,15 @@
+#summary Build instructions for Cocoa4Java
+
+= Introduction =
+
+Highly experimental !
+
+Right now if you need decently stable Cocoa wrappings, you should download [http://rococoa.dev.java.net Rococoa].
+
+Download the [http://ochafik.free.fr/Java/foundation.jar sneak preview] and give your opinion about it...
+
+= Building =
+
+{{{
+java -Xmx1000m -jar ../../bin/jnaerator.jar -framework Foundation -framework AppKit -framework CoreFoundation -framework CoreGraphics
+}}}
