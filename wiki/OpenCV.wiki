@@ -14,7 +14,7 @@ BSD-style : [http://opencvlibrary.svn.sourceforge.net/viewvc/opencvlibrary/trunk
 
 Sources available from [http://sourceforge.net/projects/opencvlibrary/ OpenCV's SourceForge Project].
 
-No Java wrappers are available for download yet (sneak preview : [http://ochafik.free.fr/Java/cv.jar cv.jar])
+No Java wrappers are available for download yet (sneak preview for MacOS X : [http://ochafik.free.fr/Java/cv.jar cv.jar])
 
 = Building =
 
