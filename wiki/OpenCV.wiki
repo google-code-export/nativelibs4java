@@ -1,4 +1,5 @@
 #summary Build instructions for OpenCV4Java
+#labels NativeLib
 
 *in construction !!! please come back in a few days...*
 
