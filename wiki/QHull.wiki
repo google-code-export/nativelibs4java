@@ -1,4 +1,5 @@
 #summary Build instructions for qhull4java
+#labels NativeLib
 
 = Introduction =
 
