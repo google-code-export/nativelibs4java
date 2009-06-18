@@ -13,7 +13,7 @@ Discussion on these mappings and their use should take place on [https://rococoa
 
 Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/macframeworks.jar macframeworks.jar]
 
-Wrappers sources : [http://ochafik.free.fr/nativelibs4java/macframeworks-src.jar macframeworks-src.jar]
+Wrappers sources : [http://ochafik.free.fr/nativelibs4java/macframeworks-src.zip macframeworks-src.zip]
 
 Sources of modified Rococoa (TODO test modifications with auto-tests & submit to Rococoa) : [http://ochafik.free.fr/nativelibs4java/rococoa-jnaerator.zip rococoa-jnaerator.zip]
 
