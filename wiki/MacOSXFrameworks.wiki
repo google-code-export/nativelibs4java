@@ -15,6 +15,8 @@ Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/macframeworks.jar ma
 
 Wrappers sources : [http://ochafik.free.fr/nativelibs4java/macframeworks-src.jar macframeworks-src.jar]
 
+Sources of modified Rococoa (TODO test modifications with auto-tests & submit to Rococoa) : [http://ochafik.free.fr/nativelibs4java/rococoa-jnaerator.zip rococoa-jnaerator.zip]
+
 This JAR has not been tested (at all). It may contain many bugs and is only here as a sneak preview of what's going on with JNAerator.
 
 The API is highly likely to evolve quickly, so please don't rely on it too much...
