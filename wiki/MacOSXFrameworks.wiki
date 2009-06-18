@@ -9,10 +9,21 @@ Right now if you need decently stable Cocoa wrappings, you should download [http
 
 Discussion on these mappings and their use should take place on [https://rococoa.dev.java.net/servlets/ProjectMailingListList Rococoa's users mailing lists].
 
-Download the [http://ochafik.free.fr/Java/foundation.jar sneak preview] and give your opinion about it...
+= Download = 
+
+Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/macframeworks.jar]
+Wrappers sources : [http://ochafik.free.fr/nativelibs4java/macframeworks-src.jar]
+
+This JAR has not been tested (at all). It may contain many bugs and is only here as a sneak preview of what's going on with JNAerator.
+
+The API is highly likely to evolve quickly, so please don't rely on it too much...
+
+And feel free to tell what you think about it !
 
 = Building =
 
+Download [http://nativelibs4java.googlecode.com/svn/trunk/libraries/MacOSXFrameworks/macframeworks.jnaerator macframeworks.jnaerator], then type :
+
 {{{
-java -Xmx1000m -jar ../../bin/jnaerator.jar -framework Foundation -framework AppKit -framework CoreFoundation -framework CoreGraphics
+java -Xmx1000m -jar jnaerator.jar @ macframeworks.jnaerator
 }}}
