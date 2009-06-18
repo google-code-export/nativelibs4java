@@ -11,7 +11,7 @@ Discussion on these mappings and their use should take place on [https://rococoa
 
 = Download = 
 
-Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/macframeworks.jar macframeworks.jar]
+Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/macframeworks.jar macframeworks.jar] (not self-sufficient yet : please put [http://ochafik.free.fr/Java/jnaerator.jar JNAerator] in the path at run-time)
 
 Wrappers sources : [http://ochafik.free.fr/nativelibs4java/macframeworks-src.zip macframeworks-src.zip]
 
