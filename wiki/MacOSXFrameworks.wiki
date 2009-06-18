@@ -1,4 +1,4 @@
-#summary Build instructions for Cocoa4Java
+#summary Home of MacOSXFrameworks for Java
 #labels NativeLib
 
 = Introduction =
