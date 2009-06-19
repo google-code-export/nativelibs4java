@@ -3,7 +3,7 @@
 
 = Open Computing Language =
 
-Apart from MacOS X developer previews, OpenCL implementations are not yet available as of this writing.
+Apart from [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard] developer previews, OpenCL implementations are not yet available as of this writing.
 
 However, the Khronos Group makes the [http://www.khronos.org/registry/cl/  OpenCL specification and headers] available to the public, so it is trivial to create [http://jna.dev.java.net/ JNA] wrappings for OpenCL using [http://jnaerator.googlecode.com/ JNAerator].
 
