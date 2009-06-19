@@ -1,0 +1,33 @@
+#summary Java bindings for OpenCL
+#labels NativeLib
+
+= Introduction =
+
+Apart from MacOS X developer previews, OpenCL implementations are not yet available as of this writing.
+
+However, the Khronos Group makes the OpenCL specification and headers available to everyone, so it is easy to JNAerate wrappings for Java using JNAerator.
+
+= Building =
+
+First get JNAerator :
+{{{
+wget http://ochafik.free.fr/Java/jnaerator.jar
+}}}
+
+Then download OpenCL's headers from the [http://www.khronos.org/registry/cl/ Khronos OpenCL API Registry].
+
+Put cl.h, cl_gl.h and cl_platform.h in a subdirectory named CL.
+
+Make sure you have the JDK installed ({{{ set JDK_HOME=c:\Program Files\Java\jdk1.6.0_12 }}} on Windows, for instance) or that eclipse's latest ecj.jar Java compiler is in your classpath.
+
+Run the following command on Unix :
+{{{
+$JDK_HOME/bin/java -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
+}}}
+
+Or this one on Windows :
+{{{
+"%JDK_HOME%\bin\java" -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
+}}}
+
+You'll get a neat [http://ochafik.free.fr/nativelibs4java/OpenCL.jar OpenCL.jar library wrapper such as this one].
