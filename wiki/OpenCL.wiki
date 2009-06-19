@@ -27,7 +27,7 @@ $JDK_HOME/bin/java -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
 
 Or this one on Windows :
 {{{
-"%JDK_HOME%\bin\java" -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
+"%JDK_HOME%\bin\java.exe" -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
 }}}
 
 You'll get a neat [http://ochafik.free.fr/nativelibs4java/OpenCL.jar OpenCL.jar library wrapper such as this one].
