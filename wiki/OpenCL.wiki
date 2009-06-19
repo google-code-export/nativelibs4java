@@ -1,11 +1,11 @@
 #summary Java bindings for OpenCL
 #labels NativeLib
 
-= Introduction =
+= Open Computing Language =
 
 Apart from MacOS X developer previews, OpenCL implementations are not yet available as of this writing.
 
-However, the Khronos Group makes the OpenCL specification and headers available to everyone, so it is easy to JNAerate wrappings for Java using JNAerator.
+However, the Khronos Group makes the [http://www.khronos.org/registry/cl/  OpenCL specification and headers] available to the public, so it is trivial to create [http://jna.dev.java.net/ JNA] wrappings for OpenCL using [http://jnaerator.googlecode.com/ JNAerator].
 
 *IMPORTANT NOTE ON PERFORMANCE* : 
 
