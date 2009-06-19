@@ -34,9 +34,9 @@ Or this one on Windows :
 "%JDK_HOME%\bin\java.exe" -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
 }}}
 
-You'll get a neat [http://ochafik.free.fr/nativelibs4java/OpenCL.jar OpenCL.jar library wrapper such as this one].
+You'll get a neat [http://ochafik.free.fr/nativelibs4java/OpenCL/OpenCL.jar OpenCL.jar library wrapper such as this one].
 
-You can even generate the Javadoc :
+You can even generate [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc] :
 {{{
 java -jar jnaerator.jar CL/cl.h -library OpenCL
 javadoc -classpath jnaerator-runtime.jar opencl/OpenCLLibrary.java
