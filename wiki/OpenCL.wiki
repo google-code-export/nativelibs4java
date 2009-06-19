@@ -7,6 +7,10 @@ Apart from MacOS X developer previews, OpenCL implementations are not yet availa
 
 However, the Khronos Group makes the OpenCL specification and headers available to everyone, so it is easy to JNAerate wrappings for Java using JNAerator.
 
+*IMPORTANT NOTE ON PERFORMANCE* : 
+
+OpenCL is a high-performance library and wrapping it with JNA could appear pointless, as it usually incurs very high overhead. However, since JNA 3.1.0, there is a very fast direct call feature that should allow more than decent performance. JNAerator is not yet compatible with this direct call feature but should be shortly, so please come back in a few days / weeks for updated wrappings.
+
 = Building =
 
 First get JNAerator :
