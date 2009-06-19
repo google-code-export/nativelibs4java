@@ -35,3 +35,9 @@ Or this one on Windows :
 }}}
 
 You'll get a neat [http://ochafik.free.fr/nativelibs4java/OpenCL.jar OpenCL.jar library wrapper such as this one].
+
+You can even generate the Javadoc :
+{{{
+java -jar jnaerator.jar CL/cl.h -library OpenCL
+javadoc -classpath jnaerator-runtime.jar opencl/OpenCLLibrary.java
+}}}
