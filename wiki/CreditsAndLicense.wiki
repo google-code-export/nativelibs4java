@@ -10,7 +10,7 @@ This adds to the JNAerator runtime, which is composed of :
 
 Here's a link to the credit info for JNAerator itself :
 
-[http://code.google.com/p/jnaerator/wiki/CreditsAndLicense CreditsAndLicense (on JNAerator's project]
+[http://code.google.com/p/jnaerator/wiki/CreditsAndLicense CreditsAndLicense (on JNAerator's project)]
 
 
 TODO
