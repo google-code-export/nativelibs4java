@@ -21,8 +21,8 @@ No Java wrappers are available for download yet (sneak preview for MacOS X : [ht
 
  * Download [http://sourceforge.net/projects/opencvlibrary/ OpenCV sources] and unzip / untar them
  * Put the following files in the top OpenCV directory :
-    * [http://nativelibs4java.googlecode.com/svn-history/r37/trunk/libraries/OpenCV/makeMacOSXFatBinaries.sh makeMacOSXFatBinaries.sh] (MacOSX only)
-    * [http://nativelibs4java.googlecode.com/svn-history/r37/trunk/libraries/OpenCV/config.jnaerator config.jnaerator]
+    * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/makeMacOSXFatBinaries.sh makeMacOSXFatBinaries.sh] (MacOSX only)
+    * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/config.jnaerator config.jnaerator]
  * Open a command-line shell and go to the top OpenCV directory
  * On MacOSX : {{{ sh makeMacOSXFatBinaries.sh }}} to create fat binaries of OpenCV
  * {{{ java -jar jnaerator.jar @ config.jnaerator }}}
