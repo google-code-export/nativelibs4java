@@ -3,31 +3,33 @@
 
 = Introduction =
 
-Highly experimental !
-
-Right now if you need decently stable Cocoa wrappings, you should download [http://rococoa.dev.java.net Rococoa].
+There are two use-cases for this sub-project :
+  * Get ready-to-use generalistic Cocoa wrappings : you should hopefully be able to download a JNAerator-beefed up [http://rococoa.dev.java.net Rococoa] release soon. Right now, Rococoa only ships with a few hand-crafted wrappings.
+  * Get custom-tailored wrappings only for the frameworks you're using in your project : you can then follow and adapt the build instructions provided here.
 
 Discussion on these mappings and their use should take place on [https://rococoa.dev.java.net/servlets/ProjectMailingListList Rococoa's users mailing lists].
+
+These mappings have not been tested yet (at all). It may contain many bugs and is are only a preview of what's going on with JNAerator.
+
+The API is highly likely to evolve quickly, so please don't rely on it too much...
+
+And feel free to tell what you think about it !
 
 = Download = 
 
 Compiled wrappers : [http://ochafik.free.fr/nativelibs4java/MacOSXFrameworks/macframeworks.jar macframeworks.jar]
 
 [http://ochafik.free.fr/nativelibs4java/MacOSXFrameworks/javadoc Javadoc (partial)]
+
 Wrappers sources : [http://ochafik.free.fr/nativelibs4java/MacOSXFrameworks/macframeworks-src.zip macframeworks-src.zip]
 
 Sources of modified Rococoa (TODO test modifications with auto-tests & submit to Rococoa) : [http://ochafik.free.fr/nativelibs4java/rococoa-jnaerator.zip rococoa-jnaerator.zip]
-
-This JAR has not been tested (at all). It may contain many bugs and is only here as a sneak preview of what's going on with JNAerator.
-
-The API is highly likely to evolve quickly, so please don't rely on it too much...
-
-And feel free to tell what you think about it !
 
 = Building =
 
 Download [http://nativelibs4java.googlecode.com/svn/trunk/libraries/MacOSXFrameworks/config.jnaerator MacOSXFrameworks' config.jnaerator], then type :
 
 {{{
-java -Xmx1000m -jar jnaerator.jar @ config.jnaerator
+java -Xmx1000m -jar jnaerator.jar
 }}}
+(this will automatically grab the config.jnaerator file and JNAerate a compiled JAR with all the wrappings + runtime libraries)
