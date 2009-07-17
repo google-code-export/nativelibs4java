@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Taken from the [http://opencv.willowgarage.com/wiki/ OpenCV Wiki] : _OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real time computer vision._
+Quote from the [http://opencv.willowgarage.com/wiki/ OpenCV Wiki] : "_OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real time computer vision._"
 
 = License = 
 
