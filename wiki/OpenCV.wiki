@@ -1,8 +1,6 @@
 #summary Build instructions for OpenCV4Java
 #labels NativeLib
 
-*in construction !!! please come back in a few days...*
-
 = Introduction =
 
 Taken from the [http://opencv.willowgarage.com/wiki/ OpenCV Wiki] : _OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real time computer vision._
