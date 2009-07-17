@@ -15,7 +15,7 @@ BSD-style : [http://opencvlibrary.svn.sourceforge.net/viewvc/opencvlibrary/trunk
 
 Sources available from [http://sourceforge.net/projects/opencvlibrary/ OpenCV's SourceForge Project].
 
-No Java wrappers are available for download yet (sneak preview for MacOS X : [http://ochafik.free.fr/Java/cv.jar cv.jar])
+Java wrappers with self-extracting binaries for MacOSX and Windows 32bits : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/OpenCV.jar OpenCV.jar]
 
 = Building =
 
@@ -25,7 +25,7 @@ No Java wrappers are available for download yet (sneak preview for MacOS X : [ht
     * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/config.jnaerator config.jnaerator]
  * Open a command-line shell and go to the top OpenCV directory
  * On MacOSX : {{{ sh makeMacOSXFatBinaries.sh }}} to create fat binaries of OpenCV
- * {{{ java -jar jnaerator.jar @ config.jnaerator }}}
+ * {{{ java -jar jnaerator.jar }}}
 
 = Quickstart = 
 
