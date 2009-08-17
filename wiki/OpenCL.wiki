@@ -36,7 +36,7 @@ java -jar jnaerator.jar OpenCL.jnaerator
 
 You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/OpenCL.jar OpenCL.jar library wrapper such as this one].
 
-You can even generate [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc] :
+You can even generate [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/doc/index.html the Javadoc] :
 {{{
 java -jar jnaerator.jar -library OpenCL CL/cl.h -noComp
 javadoc -classpath jnaerator.jar -d ../doc opencl/*.java -link https://jna.dev.java.net/javadoc opencl/*.java
