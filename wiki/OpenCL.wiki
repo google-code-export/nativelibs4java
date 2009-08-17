@@ -19,31 +19,25 @@ You can also browse [http://nativelibs4java.googlecode.com/svn/trunk/libraries/O
 
 = Building =
 
-First get JNAerator :
+First, checkout OpenCL's project file from nativelibs4java :
+{{{
+svn checkout http://nativelibs4java.googlecode.com/svn/trunk/ OpenCL
+}}}
+
+Go to the `OpenCL` directory and download JNAerator :
 {{{
 wget http://ochafik.free.fr/Java/jnaerator.jar
 }}}
 
-Then download OpenCL's headers from the [http://www.khronos.org/registry/cl/ Khronos OpenCL API Registry].
-
-Put cl.h, cl_gl.h and cl_platform.h in a subdirectory named CL.
-
-Make sure you have the JDK installed ({{{ set JDK_HOME=c:\Program Files\Java\jdk1.6.0_12 }}} on Windows, for instance) or that [http://ochafik.free.fr/Java/libraries/ecj-3.5M6.jar eclipse's latest Java compiler] is in your classpath.
-
-Run the following command on Unix :
+Then launch JNAerator :
 {{{
-$JDK_HOME/bin/java -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
-}}}
-
-Or this one on Windows :
-{{{
-"%JDK_HOME%\bin\java.exe" -jar jnaerator.jar CL/cl.h -library OpenCL -jar OpenCL.jar
+java -jar jnaerator.jar OpenCL.jnaerator
 }}}
 
 You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/OpenCL.jar OpenCL.jar library wrapper such as this one].
 
 You can even generate [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc] :
 {{{
-java -jar jnaerator.jar CL/cl.h -library OpenCL
+java -jar jnaerator.jar -library OpenCL CL/cl.h -noComp
 javadoc -classpath jnaerator.jar -d ../doc opencl/*.java -link https://jna.dev.java.net/javadoc opencl/*.java
 }}}
