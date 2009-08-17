@@ -21,7 +21,7 @@ You can also browse [http://nativelibs4java.googlecode.com/svn/trunk/libraries/O
 
 First, checkout OpenCL's project file from nativelibs4java :
 {{{
-svn checkout http://nativelibs4java.googlecode.com/svn/trunk/ OpenCL
+svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/ OpenCL
 }}}
 
 Go to the `OpenCL` directory and download JNAerator :
