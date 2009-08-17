@@ -9,11 +9,11 @@ However, the Khronos Group makes the [http://www.khronos.org/registry/cl/  OpenC
 
 *IMPORTANT NOTE ON PERFORMANCE* : 
 
-OpenCL is a high-performance library and wrapping it with JNA could appear pointless, as it usually incurs very high overhead. However, since JNA 3.1.0, there is a very fast direct call feature that should allow more than decent performance. JNAerator is not yet compatible with this direct call feature but should be shortly, so please come back in a few days / weeks for updated wrappings.
+OpenCL is a high-performance library and wrapping it with JNA could appear pointless, as it usually incurs very high overhead. However, since JNA 3.1.0, there is a very fast direct call feature that should allow more than decent performance. Moreover, as pointed out by a reader [http://ochafik.free.fr/blog/?p=128&cpage=1#comment-17058 on my blog], the performance hit of setting up a CL kernel should be extremely small compared to the computation amount taking place afterwards.
 
 = Downloads =
 
-Preliminary binary download : [http://ochafik.free.fr/nativelibs4java/OpenCL/OpenCL.jar OpenCL.jar] (needs [http://ochafik.free.fr/nativelibs4java/jnaerator-runtime.jar jnaerator-runtime.jar] for now (the content of jnaerator-runtime.jar should shortly be included in OpenCL.jar, please come back in a few days / weeks).
+Preliminary binary download : [http://ochafik.free.fr/nativelibs4java/OpenCL/OpenCL.jar OpenCL.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
 
 Browse [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc]
 
