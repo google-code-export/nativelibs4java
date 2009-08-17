@@ -45,5 +45,5 @@ You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Ope
 You can even generate [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc] :
 {{{
 java -jar jnaerator.jar CL/cl.h -library OpenCL
-javadoc -classpath jnaerator-runtime.jar opencl/OpenCLLibrary.java
+javadoc -classpath jnaerator.jar -d ../doc opencl/*.java -link https://jna.dev.java.net/javadoc opencl/*.java
 }}}
