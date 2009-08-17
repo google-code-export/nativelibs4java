@@ -15,8 +15,6 @@ OpenCL is a high-performance library and wrapping it with JNA could appear point
 
 Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/OpenCL.jar OpenCL.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
 
-Browse [http://ochafik.free.fr/nativelibs4java/OpenCL/doc the Javadoc]
-
 = Building =
 
 First get JNAerator :
