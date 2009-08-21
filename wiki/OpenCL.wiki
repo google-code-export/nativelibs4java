@@ -19,7 +19,7 @@ You can also browse [http://nativelibs4java.googlecode.com/svn/trunk/libraries/O
 
 = Building =
 
-First, checkout OpenCL's project file from nativelibs4java :
+First, checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries/OpenCL OpenCL's project file from nativelibs4java] :
 {{{
 svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/ OpenCL
 }}}
