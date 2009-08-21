@@ -1,4 +1,4 @@
-#summary Embed Mono(.NET) in your Java applications in 5 minutes
+#summary Embed Mono(.NET) in your Java applications in 5 minutes, download included
 
 = Introduction =
 
