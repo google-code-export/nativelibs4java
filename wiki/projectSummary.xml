@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<ModulePrefs 
+		author="Olivier Chafik" 
+		author_link="http://ochafik.free.fr/" 
+		author_email="olivier.chafik@gmail.com" 
+		description="__UP_projectName__4Java Sub-Project Summarizer" 
+		title="__UP_projectName__4Java Project Summary" 
+		title_url="http://ochafik.free.fr/"
+		height="60"
+	/>
+	<UserPref name="projectName" display_name="NativeLibs4Java Sub-Project Name" datatype="string" required="true"/> 
+	
+	<Content type="html">
+		<![CDATA[
+			<div align="center">
+			<script type="text/javascript"><!--
+				var prefs = new gadgets.Prefs();
+				
+				function linkParagraph(prequel, link, linkText) {
+					return '<p>' + prequel + '<a href="' + link '" rel="nofollow">' + linkText + '</a></p>';
+				}
+				function displaySummary() {
+					// Get current time
+					var element = document.getElementById('content_div');  
+					
+					element.style.height=250;
+					element.style.backgroundColor=prefs.getString("mycolor"); 
+					
+					var html = "";
+					
+					var projectSVN = 'http://nativelibs4java.googlecode.com/svn/trunk/libraries/' + projectName';
+					
+					html += linkParagraph('Binary download : ', projectSVN + '/' + projectName + '.jar', projectName + '.jar');
+					
+					html += linkParagraph('', projectSVN + '/javadoc', 'Browse the online JavaDoc');
+					
+					element.innerHTML = html;
+				}
+				gadgets.util.registerOnLoadHandler(displaySummary); 
+
+			//-->
+			</script>
+			</div>
+		]]>
+	</Content>
+</Module>
