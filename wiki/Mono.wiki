@@ -1,0 +1,32 @@
+#summary Embed Mono(.NET) in your Java applications
+
+= Introduction =
+
+[http://mono-project.com/What_is_Mono Mono is a multi-platform CLR/.NET implementation] written and maintained by Novell.
+
+It makes it possible to run .NET programs on Linux, MacOS X and other unices.
+
+A very cool feature of Mono is its Embedding C API, which is an ideal target for use from Java using [http://jnaerator.googlecode.com/ JNAerated] wrappers.
+
+= Downloads =
+
+Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+
+= Building =
+
+First, checkout Mono's project file from nativelibs4java :
+{{{
+svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/ Mono
+}}}
+
+Go to the `Mono` directory and download JNAerator :
+{{{
+wget http://ochafik.free.fr/Java/jnaerator.jar
+}}}
+
+Then launch JNAerator :
+{{{
+java -jar jnaerator.jar Mono.jnaerator
+}}}
+
+You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar library wrapper such as this one].
