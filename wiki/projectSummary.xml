@@ -35,9 +35,11 @@
 					
 					html += linkParagraph('', projectSVN + '/javadoc', 'Browse the online JavaDoc');
 					
-					element.innerHTML = html;
+					document.write(html);
+					//element.innerHTML = html;
 				}
-				gadgets.util.registerOnLoadHandler(displaySummary); 
+				//gadgets.util.registerOnLoadHandler(displaySummary);
+				displaySummary();
 
 			//-->
 			</script>
