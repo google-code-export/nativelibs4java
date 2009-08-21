@@ -1,6 +1,1 @@
-<wiki:gadget url="http://nativelibs4java.googlecode.com/svn/wiki/projectSummary.xml" 
-	up_projectName="Mono" 
-	title="Test title" 
-	width="400" 
-	height="100"
-/>
+<wiki:gadget url="http://nativelibs4java.googlecode.com/svn/wiki/projectSummary.xml" up_projectName="Mono" 	title="Test title" width="400" height="100"/>
