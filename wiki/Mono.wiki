@@ -14,7 +14,7 @@ Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/l
 
 = Building =
 
-First, checkout Mono's project file from nativelibs4java :
+First, checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries/Mono Mono's project file from nativelibs4java] :
 {{{
 svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/ Mono
 }}}
