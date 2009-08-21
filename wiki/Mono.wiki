@@ -2,7 +2,7 @@
 
 = Introduction =
 
-[http://mono-project.com/What_is_Mono Mono is a multi-platform CLR/.NET implementation] written and maintained by Novell.
+[http://mono-project.com/What_is_Mono Mono is a multi-platform CLR/.NET implementation] written and maintained by [http://www.novell.com/ Novell].
 
 It makes it possible to run .NET programs on Linux, MacOS X and other unices.
 
