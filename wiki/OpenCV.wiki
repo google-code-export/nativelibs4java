@@ -1,6 +1,8 @@
 #summary Build instructions for OpenCV4Java
 #labels NativeLib
 
+<wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
+
 = Introduction =
 
 Quote from the [http://opencv.willowgarage.com/wiki/ OpenCV Wiki] : "_OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real time computer vision._"
