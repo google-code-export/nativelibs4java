@@ -1,6 +1,8 @@
 #summary Embed Mono(.NET) in your Java applications in 5 minutes, download included
 #labels Featured
 
+<wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
+
 = Introduction =
 
 [http://mono-project.com/What_is_Mono Mono is a multi-platform CLR/.NET implementation] written and maintained by [http://www.novell.com/ Novell].
