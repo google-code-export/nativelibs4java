@@ -1,6 +1,8 @@
 #summary Java bindings for OpenCL
 #labels NativeLib
 
+<wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
+
 = Open Computing Language 4 Java ? =
 
 Apart from [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard] developer previews, [http://www.khronos.org/opencl/ OpenCL] implementations are not yet widely available as of this writing.
