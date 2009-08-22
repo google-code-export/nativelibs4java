@@ -1,4 +1,5 @@
 #summary Embed Mono(.NET) in your Java applications in 5 minutes, download included
+#labels Featured
 
 = Introduction =
 
@@ -11,6 +12,12 @@ A very cool feature of Mono is its [http://www.mono-project.com/Embedding_Mono E
 = Downloads =
 
 Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+
+= Quickstart =
+
+Read this blog entry [http://ochafik.free.fr/blog/?p=165 .NET WinForms HelloWorld from Java using embedded Mono + JNAerator].
+
+It explains how to use the [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries/Mono/examples examples].
 
 = Building =
 
