@@ -13,7 +13,9 @@ A very cool feature of Mono is its [http://www.mono-project.com/Embedding_Mono E
 
 = Downloads =
 
-Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+Binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+
+You can also browse the [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/doc/index.html online JavaDoc].
 
 = Quickstart =
 
