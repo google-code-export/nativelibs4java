@@ -5,19 +5,24 @@
 
 = Open Computing Language 4 Java ? =
 
-Apart from [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard] developer previews, [http://www.khronos.org/opencl/ OpenCL] implementations are not yet widely available as of this writing.
+[http://www.khronos.org/opencl/ OpenCL] is a the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
-However, the Khronos Group makes the [http://www.khronos.org/registry/cl/  OpenCL specification and headers] available to the public, so it is trivial to create [http://jna.dev.java.net/ JNA] wrappings for OpenCL using [http://jnaerator.googlecode.com/ JNAerator].
+NativeLibs4Java provides three levels of Java bindings for OpenCL :
+* C-style wrappings made by [http://jnaerator.googlecode.com/ JNAerator].
+* Java-style wrappings that hides away the complexity of the C-style wrappings (not all features are available, though)
+* Scala DSL which is a kind of "parallel expressions for dummies"
 
-*IMPORTANT NOTE ON PERFORMANCE* : 
-
-OpenCL is a high-performance library and wrapping it with JNA could appear pointless, as it usually incurs very high overhead. However, since JNA 3.1.0, there is a very fast direct call feature that should allow more than decent performance. Moreover, as pointed out by a reader [http://ochafik.free.fr/blog/?p=128&cpage=1#comment-17058 on my blog], the performance hit of setting up a CL kernel should be extremely small compared to the computation amount taking place afterwards.
+This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
 = Downloads =
 
-Preliminary binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/OpenCL.jar OpenCL.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+* C-style wrappings : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
 
-You can also browse [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/doc/index.html OpenCL/JNAerated's Javadoc].
+* Java-style wrappings : download not available yet, please see [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/java]
+
+* Scala DSL : download not available yet, please see [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala]
+
+You can also browse the *outdated* [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/doc/index.html OpenCL C-style wrappings Javadoc].
 
 = Building =
 
@@ -26,7 +31,7 @@ First, checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/tru
 svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/ OpenCL
 }}}
 
-Go to the `OpenCL` directory and download JNAerator :
+Go to the `OpenCL/jnaerator` directory and download JNAerator :
 {{{
 wget http://ochafik.free.fr/Java/jnaerator.jar
 }}}
@@ -36,7 +41,7 @@ Then launch JNAerator :
 java -jar jnaerator.jar OpenCL.jnaerator
 }}}
 
-You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/OpenCL.jar OpenCL.jar library wrapper such as this one].
+You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar library wrapper such as this one].
 
 You can even generate [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/doc/index.html the Javadoc] :
 {{{
