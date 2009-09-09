@@ -17,7 +17,7 @@ cl_device_id[] ids = new cl_device_id[nDevs];
 OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, nDevs, ids, pCount));
 ...
 }}}
-  * Java-style wrappings that hides away the complexity of the C-style wrappings (not all features are available, though)
+  * Java-style wrappings that hides away the complexity of the C-style wrappings (not all features are available yet, though)
   {{{
 CLContext context = CLContext.createContext(CLDevice.listAllDevices());
 CLProgram program = context.createProgram(src).build();
