@@ -41,8 +41,10 @@ class MyProg(n: Int) extends Program {
 }
 var n = 1000;
 var prog = new MyProg(n)
-prog.a.value.set (1 to n)
-prog !
+prog.a.set (1 to n)
+prog.b.set prog.a
+prog ! // run the operation
+println prog.o // print the output
 }}}
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
