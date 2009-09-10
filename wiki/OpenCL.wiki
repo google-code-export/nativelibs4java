@@ -53,11 +53,9 @@ This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopa
 
 = Downloads =
 
-  * C-style wrappings : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+  * OO wrappings, Scala DSL + raw bindings : [http://nativelibs4java.googlecode.com/svn/trunk/maven-repo/com/nativelibs4java/opencl/OpenCL4Java/ download from here]
 
-  * Java-style wrappings : download not available yet, please see [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/java]
-
-  * Scala DSL : download not available yet, please see [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala]
+  * C-style raw bindings alone : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar]
 
 You can also browse the [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/index.html OpenCL4Java  Javadoc].
 
