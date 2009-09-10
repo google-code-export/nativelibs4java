@@ -30,7 +30,7 @@ CLKernel kernel = program.createKernel(
 );
 ...
 }}}
-  * Scala DSL which is a kind of "parallel expressions for dummies"
+  * Scala DSL which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
   {{{
 class MyProg(n: Int) extends Program {
 	val a = IntsVar(n)
