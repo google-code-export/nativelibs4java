@@ -8,7 +8,7 @@
 [http://www.khronos.org/opencl/ OpenCL] is a the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
 NativeLibs4Java provides three levels of Java bindings for OpenCL :
-  * C-style wrappings made by [http://jnaerator.googlecode.com/ JNAerator]. 
+  * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] made by [http://jnaerator.googlecode.com/ JNAerator]. 
   {{{		
 IntByReference pCount = new IntByReference();
 OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, 0, (PointerByReference)null, pCount);
@@ -17,7 +17,8 @@ cl_device_id[] ids = new cl_device_id[nDevs];
 OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, nDevs, ids, pCount));
 ...
 }}}
-  * Java-style wrappings that hides away the complexity of the C-style wrappings (not all features are available yet, though)
+    Not easy to use, so read on.
+  * Thin [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCL4Java.html Object-Oriented wrappings] that hide away the complexity of the C-style wrappings (not all features are available yet, though)
   {{{
 CLContext context = CLContext.createContext(CLDevice.listAllDevices());
 CLProgram program = context.createProgram(src).build();
@@ -30,6 +31,7 @@ CLKernel kernel = program.createKernel(
 );
 ...
 }}}
+    [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
   * Scala DSL which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
   {{{
 class MyProg(n: Int) extends Program {
@@ -48,6 +50,7 @@ prog.b.set prog.a
 prog ! // run the operation
 println prog.o // print the output
 }}}
+    Not ready yet : right now, the DSL is mostly ready and generates proper OpenCL source code, but it hasn't been plugged on the OpenCL OO-layer yet.
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
