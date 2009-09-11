@@ -53,13 +53,13 @@ println prog.o // print the output
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
-= Download it =
+= Download it ! =
 
 [http://nativelibs4java.googlecode.com/svn/trunk/maven-repo/com/nativelibs4java/opencl/OpenCL4Java/ Binaries in self-contained JAR] (OO wrappings, Scala DSL + raw bindings)
 
 [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/index.html OpenCL4Java  Browse online Javadoc].
 
-= Build it =
+= Build it... =
 
   * First, [http://maven.apache.org/download.html install Maven].
   * Checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries nativelibs4java files] :
