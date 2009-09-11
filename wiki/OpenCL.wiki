@@ -30,7 +30,7 @@ CLKernel kernel = program.createKernel(
 );
 ...
 }}}
-   [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
+  [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
   * Scala DSL which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
   {{{
 class MyProg(n: Int) extends Program {
