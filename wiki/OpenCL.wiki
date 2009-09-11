@@ -2,7 +2,8 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
-= Open Computing Language 4 Java ? =
+
+= What is it ? =
 
 [http://www.khronos.org/opencl/ OpenCL] is a the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
