@@ -63,25 +63,24 @@ You can also browse the [http://nativelibs4java.googlecode.com/svn/trunk/librari
 
 = Building =
 
-First, checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries/OpenCL OpenCL's project file from nativelibs4java] :
-{{{
-svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/ OpenCL
+  * First, install Maven.
+  * Checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/
+nativelibs4java] and install its base Maven base project file :
+  {{{
+svn checkout http://nativelibs4java.googlecode.com/svn/trunk/ nativelibs4java
+cd nativelibs4java
+mvn install
 }}}
-
-Go to the `OpenCL/jnaerator` directory and download JNAerator :
-{{{
+  * *Optional* If you wish to regenerate the low-level bindings, go to the `libraries/OpenCL/jnaerator` directory, download and launch JNAerator :
+  {{{
+cd libraries
+cd OpenCL
 wget http://ochafik.free.fr/Java/jnaerator.jar
-}}}
-
-Then launch JNAerator :
-{{{
 java -jar jnaerator.jar OpenCL.jnaerator
 }}}
-
-You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar library wrapper such as this one].
-
-You can even generate [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/doc/index.html the Javadoc] :
-{{{
-java -jar jnaerator.jar -library OpenCL CL/cl.h -noComp
-javadoc -classpath jnaerator.jar -d ../doc opencl/*.java -link https://jna.dev.java.net/javadoc opencl/*.java
+  You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar library wrapper such as this one].
+  * Compile and package OpenCL4Java
+  {{{
+mvn package
+mvn javadoc
 }}}
