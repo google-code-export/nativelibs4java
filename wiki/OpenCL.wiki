@@ -1,4 +1,4 @@
-#summary Java bindings for OpenCL
+#summary Java/Scala bindings for OpenCL
 #labels NativeLib
 
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
