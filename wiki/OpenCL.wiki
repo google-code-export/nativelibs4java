@@ -7,7 +7,7 @@
 
 [http://www.khronos.org/opencl/ OpenCL] is a the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
-NativeLibs4Java provides three levels of Java bindings for OpenCL :
+OpenCL4Java provides three levels of Java bindings for OpenCL :
   * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] made by [http://jnaerator.googlecode.com/ JNAerator]. 
   {{{		
 IntByReference pCount = new IntByReference();
