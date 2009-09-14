@@ -53,6 +53,11 @@ println prog.o // print the output
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
+= Requirements =
+
+* Macintosh : Mac OS 10.6 Snow Leopard
+* Windows, Linux : OpenCL-enabled graphic card driver (for GPU computations) or [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] (for computations on any SSE3-enabled CPU)
+
 = Download it ! =
 
 [http://nativelibs4java.googlecode.com/svn/trunk/maven-repo/com/nativelibs4java/opencl/OpenCL4Java/ Binaries in self-contained JAR] (OO wrappings, Scala DSL + raw bindings)
