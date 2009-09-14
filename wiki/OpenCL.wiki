@@ -55,8 +55,10 @@ This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopa
 
 = Requirements =
 
-* Macintosh : Mac OS 10.6 Snow Leopard
-* Windows, Linux : OpenCL-enabled graphic card driver (for GPU computations) or [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] (for computations on any SSE3-enabled CPU)
+  * Macintosh : Mac OS 10.6 Snow Leopard
+  * Windows, Linux : 
+    * for GPU computations : OpenCL-enabled graphic card driver
+    * for CPU computations with any SSE3 CPU : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] 
 
 = Download it ! =
 
