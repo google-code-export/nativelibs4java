@@ -8,7 +8,7 @@
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
 OpenCL4Java is a library that provides three levels of Java bindings for OpenCL :
-  * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] made by [http://jnaerator.googlecode.com/ JNAerator]. 
+  * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] auto-JNAerated by [http://jnaerator.googlecode.com/ JNAerator] (they use [http://jna.dev.java.net/ JNA] to make the glue with native code)
   {{{		
 IntByReference pCount = new IntByReference();
 OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, 0, (PointerByReference)null, pCount);
