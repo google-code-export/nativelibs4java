@@ -64,7 +64,7 @@ This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopa
 
 [http://nativelibs4java.googlecode.com/svn/trunk/maven-repo/com/nativelibs4java/opencl/OpenCL4Java/ Binaries in self-contained JAR] (OO wrappings, Scala DSL + raw bindings)
 
-[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/index.html OpenCL4Java  Browse online Javadoc].
+[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/index.html Browse OpenCL4Java's Javadoc online].
 
 = Quick Start = 
 
