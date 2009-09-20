@@ -1,0 +1,45 @@
+#summary Instructions on how to use NativeLibs4Java from Maven projects
+
+= Introduction =
+
+NativeLibs4Java has a Maven repository in which new versions of both binaries and sources of its subprojects are regularly uploaded (only OpenCL4Java, for now).
+
+= Repository =
+
+To use NativeLibs4Java's Maven repository, you need to add the following lines to your pom.xml :
+
+{{{
+<project>
+	...
+	<repositories>
+		...
+		<repository>
+		  <id>nativelibs4java</id>
+		  <url>http://nativelibs4java.googlecode.com/svn/trunk/maven-repo</url>
+		</repository>
+		...
+	</repositories>
+	...
+</project>
+}}}
+
+= Projects = 
+
+== OpenCL ==
+
+{{{
+<project>
+	...
+	<dependencies>
+		...
+		<dependency>
+			<groupId>com.nativelibs4java</groupId>
+			<artifactId>OpenCL4Java</artifactId>
+			<version>1.9-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		...
+	</dependencies>
+	...
+</project>
+}}}
