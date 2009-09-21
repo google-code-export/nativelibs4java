@@ -3,6 +3,17 @@
 <wiki:toc max_depth="1" />
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
 
+= Quick Start = 
+
+Related blog posts :
+  * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
+  * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
+
+Example code :
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java OpenCL4JavaExample.java]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmark.java OpenCL4JavaBenchmark.java]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
+
 = What is OpenCL4Java ? =
 
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
@@ -10,9 +21,6 @@
 OpenCL4Java is a library that provides three levels of Java bindings for OpenCL :
   * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] auto-JNAerated by [http://jnaerator.googlecode.com/ JNAerator] (they use [http://jna.dev.java.net/ JNA] to make the glue with native code)
   {{{		
-IntByReference pCount = new IntByReference();
-OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, 0, (PointerByReference)null, pCount);
-int nDevs = pCount.getValue();
 cl_device_id[] ids = new cl_device_id[nDevs];
 OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, nDevs, ids, pCount));
 ...
@@ -20,12 +28,11 @@ OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_
   * Thin [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCL4Java.html Object-Oriented wrappings] that hide away the complexity of the C-style wrappings (not all features are available yet, though)
   {{{
 CLContext context = CLContext.createContext(CLDevice.listAllDevices());
-CLProgram program = context.createProgram(src).build();
+CLProgram program = context.createProgram(myKernelSource).build();
 CLKernel kernel = program.createKernel(
-   	"square", 
+   	"myKernel", 
     	context.createInput(data, false), 
-    	context.createOutput(resultsf), 
-    	context.createOutput(resultsi), 
+    	context.createOutput(resultsBuffer), 
     	dataSize
 );
 ...
@@ -39,22 +46,7 @@ class VectorAdd(i: Dim) extends Program(i) {
 	var result = FloatsVar
 	content = result := a + b
 }
-var n = 1000;
-var prog = new MyProg(n)
-prog.a.write (1 to n)
-prog.b.write prog.a
-prog ! // run the operation
-println prog.result.read() // print the output
 }}}
-
-This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
-
-= Requirements =
-
-  * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
-  * Other systems : 
-    * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html early-access OpenCL-enabled drivers]
-    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] 
 
 = Download it ! =
 
@@ -64,16 +56,14 @@ This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopa
 
 [Maven Use OpenCL4Java in a Maven project].
 
-= Quick Start = 
+= Requirements =
 
-Related blog posts :
-  * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
-  * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
+  * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
+  * Other systems : 
+    * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html early-access OpenCL-enabled drivers]
+    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] 
 
-Example code :
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java OpenCL4JavaExample.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmark.java OpenCL4JavaBenchmark.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
+This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
 = Build it... =
 
