@@ -31,25 +31,21 @@ CLKernel kernel = program.createKernel(
 ...
 }}}
   [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
-  * Scala DSL which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
+  * [http://ochafik.free.fr/blog/?p=207 ScalaCL], which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
   {{{
-class MyProg(n: Int) extends Program {
-	val a = IntsVar(n)
-	val b = IntsVar(n)
-	val d = IntVar()
-	var o = DoublesVar(n)
-	
-	override var root: Expr =
-	o ~ a + sin(b) * 0.7 + d;
+class VectorAdd(i: Dim) extends Program(i) {
+	val a = FloatsVar
+	val b = FloatsVar
+	var result = FloatsVar
+	content = result := a + b
 }
 var n = 1000;
 var prog = new MyProg(n)
-prog.a.set (1 to n)
-prog.b.set prog.a
+prog.a.write (1 to n)
+prog.b.write prog.a
 prog ! // run the operation
-println prog.o // print the output
+println prog.result.read() // print the output
 }}}
-   Not ready yet : right now, the DSL is mostly ready and generates proper OpenCL source code, but it hasn't been plugged on the OpenCL OO-layer yet.
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
@@ -72,6 +68,7 @@ This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopa
 
 Related blog posts :
   * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
+  * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
 
 Example code :
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java OpenCL4JavaExample.java]
