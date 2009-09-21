@@ -31,7 +31,7 @@ CLKernel kernel = program.createKernel(
 ...
 }}}
   [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
-  * [http://ochafik.free.fr/blog/?p=207 ScalaCL], which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
+  * [http://ochafik.free.fr/blog/?p=207 ScalaCL], which is a kind of "[http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala parallel expressions for dummies]"
   {{{
 class VectorAdd(i: Dim) extends Program(i) {
 	val a = FloatsVar
@@ -73,7 +73,7 @@ Related blog posts :
 Example code :
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java OpenCL4JavaExample.java]
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmark.java OpenCL4JavaBenchmark.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/scala/com/nativelibs4java/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
 
 = Build it... =
 
