@@ -83,6 +83,5 @@ java -jar jnaerator.jar jnaerator/OpenCL.jnaerator
   You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar library wrapper such as this one].
   * Compile and package OpenCL4Java :
     {{{
-mvn package
-mvn javadoc
+mvn clean package javadoc: javadoc
 }}}
