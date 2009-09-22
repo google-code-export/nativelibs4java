@@ -16,7 +16,7 @@ To use NativeLibs4Java's Maven repository, you need to add the following lines t
 		...
 		<repository>
 		  <id>nativelibs4java</id>
-		  <url>http://nativelibs4java.googlecode.com/svn/trunk/maven-repo</url>
+		  <url>http://nativelibs4java.sourceforge.net/maven</url>
 		</repository>
 		...
 	</repositories>
