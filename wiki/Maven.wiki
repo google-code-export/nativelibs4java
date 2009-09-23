@@ -7,7 +7,7 @@ NativeLibs4Java has a Maven repository in which new versions of both binaries an
 
 = Repository =
 
-To use NativeLibs4Java's Maven repository, you need to add the following lines to your pom.xml :
+To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven repository], you need to add the following lines to your pom.xml :
 
 {{{
 <project ...>
