@@ -26,9 +26,9 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 
 = Projects = 
 
-== OpenCL ==
+== OpenCL4Java / ScalaCL ==
 
-[http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ Maven site]
+[http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ OpenCL4Java / ScalaCL Maven site]
 {{{
 <project ...>
 	...
