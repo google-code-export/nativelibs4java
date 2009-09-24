@@ -1,6 +1,8 @@
 #summary Instructions on how to use NativeLibs4Java from Maven projects
 #labels Featured
 
+<wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
+
 = Introduction =
 
 NativeLibs4Java has a Maven repository in which new versions of both binaries and sources of its subprojects are regularly uploaded (only OpenCL4Java, for now).
