@@ -3,8 +3,6 @@
 
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
 
-= Introduction =
-
 NativeLibs4Java has a Maven repository in which new versions of both binaries and sources of its subprojects are regularly uploaded (only OpenCL4Java, for now).
 
 = Repository =
@@ -28,7 +26,7 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 </project>
 }}}
 
-= Projects = 
+= Usage = 
 
   * [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ OpenCL4Java / ScalaCL]
   {{{
