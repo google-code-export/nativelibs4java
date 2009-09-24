@@ -15,10 +15,12 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 	<repositories>
 		<repository>
 		  <id>nativelibs4java</id>
+		  <uniqueVersion>false</uniqueVersion>
 		  <url>http://nativelibs4java.sourceforge.net/maven</url>
 		</repository>
 		<repository>
 		  <id>jnaerator</id>
+		  <uniqueVersion>false</uniqueVersion>
 		  <url>http://jnaerator.sourceforge.net/maven</url>
 		</repository>
 	</repositories>
