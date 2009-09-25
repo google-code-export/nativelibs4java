@@ -5,7 +5,7 @@
 
 NativeLibs4Java has a Maven repository in which new versions of both binaries and sources of its subprojects are regularly uploaded (only OpenCL4Java, for now).
 
-If you wish to wrap your own native library for Java, you might want to have a look at [http://code.google.com/p/nativelibs4java/wiki/Maven JNAerator's Maven instructions]
+If you wish to wrap your own native library for Java, you might want to have a look at [http://code.google.com/p/jnaerator/wiki/Maven JNAerator's Maven instructions]
 
 = Repository =
 
