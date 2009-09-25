@@ -77,7 +77,7 @@ cd OpenCL
 }}}
   * *Optional* If you wish to regenerate the low-level bindings (on other systems than MacOS X, please edit src/main/jnaerator/config.jnaerator to point to call [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.OtherPlatforms.jnaerator OpenCL.OtherPlatforms.jnaerator] instead of [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.MacOSX.jnaerator OpenCL.MacOSX.jnaerator]) :
     {{{
-mvn com.jnaerator:maven-jnaerator:jnaerate
+mvn com.jnaerator:maven-jnaerator-plugin:jnaerate
 }}}
   * Compile and package OpenCL4Java :
     {{{
