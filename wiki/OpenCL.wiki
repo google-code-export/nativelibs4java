@@ -75,13 +75,11 @@ svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries nativelib
 cd nativelibs4java
 cd OpenCL
 }}}
-  * *Optional* If you wish to regenerate the low-level bindings, download and launch JNAerator with the appropriate [*].jnaerator file ([http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.MacOSX.jnaerator OpenCL.MacOSX.jnaerator] or [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.OtherPlatforms.jnaerator OpenCL.OtherPlatforms.jnaerator]) :
+  * *Optional* If you wish to regenerate the low-level bindings (on other systems than MacOS X, please edit src/main/jnaerator/config.jnaerator to point to call [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.OtherPlatforms.jnaerator OpenCL.OtherPlatforms.jnaerator] instead of [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/jnaerator/OpenCL.MacOSX.jnaerator OpenCL.MacOSX.jnaerator]) :
     {{{
-wget http://ochafik.free.fr/Java/jnaerator.jar
-java -jar jnaerator.jar jnaerator/OpenCL.jnaerator
+mvn com.jnaerator:maven-jnaerator:jnaerate
 }}}
-  You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/jnaerator/OpenCL.jar OpenCL.jar library wrapper such as this one].
   * Compile and package OpenCL4Java :
     {{{
-mvn clean package
+mvn package
 }}}
