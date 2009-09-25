@@ -53,7 +53,7 @@ class VectorAdd(i: Dim) extends Program(i) {
 
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/OpenCL4Java/ Binaries in self-contained JAR] (OO wrappings, Scala DSL + raw bindings)
 
-Browse [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] and [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
+Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] and [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
 
 [Maven Use OpenCL4Java in a Maven project].
 
