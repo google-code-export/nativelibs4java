@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<ModulePrefs 
+		author="Olivier Chafik" 
+		author_link="http://ochafik.free.fr/" 
+		author_email="olivier.chafik@gmail.com" 
+		description="NativeLibs4Java Google Group Registrator" 
+		title="NativeLibs4Java Google Group Registrator" 
+		title_url="http://ochafik.free.fr/"
+		height="60"
+	/>
+	<Content type="html">
+		<![CDATA[
+			<table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
+			  <tr><td>
+			  <img src="http://groups.google.fr/intl/fr/images/logos/groups_logo_sm.gif"
+					 height=30 width=151 alt="Google Groupes">
+			  </td></tr>
+			  <tr><td style="padding-left: 5px"> <b>Abonnement au groupe NativeLibs4Java</b> </td></tr>
+			  <form action="http://groups.google.fr/group/nativelibs4java/boxsubscribe">
+			  <tr><td style="padding-left: 5px;"> E-mail : <input type=text name=email>
+			  <input type=submit name="sub" value="Abonner">
+			  </td></tr>
+			</form>
+			<tr><td align=right> <a href="http://groups.google.fr/group/nativelibs4java">Visiter ce groupe</a> </td></tr>
+			</table>
+
+		]]>
+	</Content>
+</Module>
