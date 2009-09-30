@@ -19,7 +19,7 @@
 			  <tr><td style="padding-left: 5px"> <b>Join this group / mailing-list</b> </td></tr>
 			  <form action="http://groups.google.fr/group/nativelibs4java/boxsubscribe">
 			  <tr><td style="padding-left: 5px;"> E-mail : <input type=text name=email>
-			  <input type=submit name="sub" value="Join">
+			  <input type=submit name="sub" value="Subscribe">
 			  </td></tr>
 			</form>
 			<tr><td align=right> <a href="http://groups.google.fr/group/nativelibs4java">Visit this group / mailing-list</a> </td></tr>
