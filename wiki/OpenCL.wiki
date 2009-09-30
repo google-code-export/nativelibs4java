@@ -19,8 +19,8 @@ Related blog posts :
   * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
 
 Example code :
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java OpenCL4JavaExample.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmark.java OpenCL4JavaBenchmark.java]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBasicTest.java OpenCL4JavaBasicTest.java]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmarkTest.java OpenCL4JavaBenchmark.java]
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
 
 = What is OpenCL4Java ? =
