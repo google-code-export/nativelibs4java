@@ -3,6 +3,12 @@
 <wiki:toc max_depth="1" />
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
 
+= Download it ! =
+
+[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/OpenCL4Java/ Download OpenCL4Java + ScalaCL]
+Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] | [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
+[Maven Use with Maven].
+
 = Quick Start = 
 
 Related blog posts :
@@ -48,14 +54,6 @@ class VectorAdd(i: Dim) extends Program(i) {
 }
 }}}
   [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala See the complete exemple...]
-
-= Download it ! =
-
-[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/OpenCL4Java/ Binaries in self-contained JAR] (OO wrappings, Scala DSL + raw bindings)
-
-Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] and [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
-
-[Maven Use OpenCL4Java in a Maven project].
 
 = Requirements =
 
