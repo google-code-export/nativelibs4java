@@ -6,7 +6,9 @@
 = Download it ! =
 
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/OpenCL4Java/ Download OpenCL4Java + ScalaCL]
+
 Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] | [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
+
 [Maven Use with Maven].
 
 = Quick Start = 
