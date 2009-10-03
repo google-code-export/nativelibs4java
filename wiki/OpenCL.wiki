@@ -63,7 +63,7 @@ class VectorAdd(i: Dim) extends Program(i) {
   * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
   * Other systems : 
     * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html beta OpenCL-enabled drivers]
-    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK] (beta 2 IS NOT FUNCTIONING RIGHT NOW : issue with calling convention of DLL in beta 2)
+    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 3] (won't work with previous betas)
 
 This has only been tested on [http://www.apple.com/fr/macosx/ MacOS X Snow Leopard], as this latter ships with a production-quality OpenCL implementation (NVIDIA gives early access to their OpenCL-enabled Windows drivers).
 
