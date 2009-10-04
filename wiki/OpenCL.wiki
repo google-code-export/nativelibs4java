@@ -1,4 +1,4 @@
-#summary Java/Scala bindings for OpenCL (LGPL-licensed)
+#summary Java/Scala bindings for OpenCL (LGPL-licensed : commercial friendly)
 #labels NativeLib
 <wiki:toc max_depth="1" />
 <wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
