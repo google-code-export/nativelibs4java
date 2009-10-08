@@ -32,16 +32,26 @@ Java wrappers with self-extracting binaries for MacOSX and Windows 32bits : [htt
 Have a look at [https://jna.dev.java.net/ JNA's frontpage]
 
 {{{
+import cv.*; 
+import cxcore.*; 
+import highgui.*; 
+import ml.*; 
+import static cv.CvLibrary.*; 
+import static  cxcore.CxcoreLibrary.*; 
+import static  highgui.HighguiLibrary.*; 
+import static  ml.MlLibrary*; 
+import static opencv.OpenCV.*;
+
 public class Test {
 	public static void main(String[] args) {
 		try {
-			HighguiLibrary.IplImage img = HighguiLibrary.INSTANCE.cvLoadImage(args[0], CV_LOAD_IMAGE_UNCHANGED);
-			HighguiLibrary.INSTANCE.cvNamedWindow("Example1", CV_WINDOW_AUTOSIZE);
-			HighguiLibrary.INSTANCE.cvShowImage("Example1", new HighguiLibrary.CvArr(img));
+			IplImage img = highgui.cvLoadImage(args[0], CV_LOAD_IMAGE_UNCHANGED);
+			highgui.cvNamedWindow("Example1", CV_WINDOW_AUTOSIZE);
+			highgui.cvShowImage("Example1", new CvArr(img));
 			System.in.read();
 			//HighguiLibrary.INSTANCE.cvWaitKey(0);
-			CxcoreLibrary.INSTANCE.cvReleaseImage(new PointerByReference(img.getPointer(0)));
-			HighguiLibrary.INSTANCE.cvDestroyWindow("Example1");
+			cxcore.cvReleaseImage(new PointerByReference(img.getPointer(0)));
+			highgui.cvDestroyWindow("Example1");
 		} catch (Throwable th) {
 			th.printStackTrace();
 		}
