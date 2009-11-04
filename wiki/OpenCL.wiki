@@ -14,6 +14,7 @@ Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL
 = Quick Start = 
 
 Related blog posts :
+  * [http://ochafik.free.fr/blog/?p=317 OpenCL4Java v1.0-beta-3 released]
   * [http://ochafik.free.fr/blog/?p=308 OpenCL4Java v1.0-beta-2 released]
   * [http://ochafik.free.fr/blog/?p=296 OpenCL4Java v1.0-beta-1 released]
   * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
@@ -64,7 +65,7 @@ class VectorAdd(i: Dim) extends Program(i) {
   * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
   * Other systems : 
     * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html beta OpenCL-enabled drivers]
-    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 3] (won't work with previous betas)
+    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 4]
 
 This has been successfully tested on :
   * MacOS X Snow Leopard
