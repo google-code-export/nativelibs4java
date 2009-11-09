@@ -7,10 +7,10 @@ In fact, most of today's computers will never run OpenCL.  For those, I have wri
 only way a commercial application could use it for the next few years.
 
 Finally before getting started, the other way of using multiple GPU's, namely, with OpenCL synchronization within a single context, is better when:
--  Response time is required, like video or other streams that require an N per second.
--  The GPU's are known to either always be the same or very similar in capability.
--  There are few, if any constraints that would complicate splitting up the work, like barriers, use of local memory, or techniques like reductions.
--  A requirement that the output must be generated in the order it was submitted.
+  * Response time is required, like video or other streams that require an N per second.
+  * The GPU's are known to either always be the same or very similar in capability.
+  * There are few, if any constraints that would complicate splitting up the work, like barriers, use of local memory, or techniques like reductions.
+  * A requirement that the output must be generated in the order it was submitted.
 
 =Features=
 Running a pool of contexts is all about throughput, massive throughput. You might need about 500 iterations of large work dimension kernel(s), before it makes sense.  I am running about 7600 iterations, of a kernel set of 3.  
