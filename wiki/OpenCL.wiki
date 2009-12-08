@@ -5,7 +5,7 @@
 
 = Download it ! =
 
-|| JavaCL (natural and powerful Object-Oriented API) || ScalaCL (OpenCL DSL) || OpenCL4Java (Raw C Bindings) ||
+|| [http://code.google.com/p/javacl JavaCL] (natural and powerful Object-Oriented API) || [http://code.google.com/p/scalacl ScalaCL] (OpenCL DSL) || OpenCL4Java (Raw C Bindings) ||
 || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
 || [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs Browse JavaDoc] || [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs Browse ScalaDoc] || [http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs Browse JavaDoc] || 
 
