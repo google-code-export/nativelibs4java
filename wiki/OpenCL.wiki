@@ -29,26 +29,20 @@ Example code :
 
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
-OpenCL4Java is a library that provides three levels of Java bindings for OpenCL :
-  * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] auto-JNAerated by [http://jnaerator.googlecode.com/ JNAerator] (they use [http://jna.dev.java.net/ JNA] to make the glue with native code)
-  {{{		
-cl_device_id[] ids = new cl_device_id[nDevs];
-OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, nDevs, ids, pCount));
-...
-}}}
-  * Thin [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCL4Java.html Object-Oriented wrappings] that hide away the complexity of the C-style wrappings (not all features are available yet, though)
+NativeLibs4Java provide three levels of Java bindings for OpenCL :
+  * JavaCL : Thin [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCL4Java.html Object-Oriented wrappings] that hide away the complexity of the C-style wrappings and bring facilities in (array reduction support, OpenGL interop...)
   {{{
-CLContext context = CLContext.createContext(CLDevice.listAllDevices());
+CLContext context = JavaCL.createBestContext();
 CLProgram program = context.createProgram(myKernelSource).build();
 CLKernel kernel = program.createKernel(
    	"myKernel", 
-    	context.createInput(data, false), 
-    	context.createOutput(resultsBuffer), 
-    	dataSize
+    	new float[] { u, v },
+    	context.createIntBuffer(Usage.Input, inputBuffer, true),
+    	context.createFloatBuffer(Usage.Output, resultsBuffer, false)
 );
 ...
 }}}
-  [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/main/java/com/nativelibs4java/opencl/OpenCL4JavaExample.java See the complete example...]
+  [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/JavaCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBasicTest.java See the complete example...]
   * [http://ochafik.free.fr/blog/?p=207 ScalaCL], which is a kind of "parallel expressions for dummies" in Scala
   {{{
 class VectorAdd(i: Dim) extends Program(i) {
@@ -58,7 +52,13 @@ class VectorAdd(i: Dim) extends Program(i) {
 	content = result := a + b
 }
 }}}
-  [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/src/main/scala/scalacl/ScalaCLTest.scala See the complete exemple...]
+  [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/ScalaCL/src/main/scala/scalacl/ScalaCLTest.scala See the complete exemple...]
+  * OpenCL4Java [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCLLibrary.html C-style wrappings] auto-JNAerated by [http://jnaerator.googlecode.com/ JNAerator] (they use [http://jna.dev.java.net/ JNA] to make the glue with native code)
+  {{{		
+cl_device_id[] ids = new cl_device_id[nDevs];
+OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_CPU, nDevs, ids, pCount));
+...
+}}}
 
 = Requirements =
 
