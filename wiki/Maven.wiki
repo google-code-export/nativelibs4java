@@ -26,7 +26,7 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 
 = Usage = 
 
-  * [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ OpenCL4Java / ScalaCL]
+  * [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ JavaCL] (includes OpenCL4Java)
   {{{
 <project>
 	...
@@ -34,7 +34,41 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 		...
 		<dependency>
 			<groupId>com.nativelibs4java</groupId>
-			<artifactId>OpenCL4Java</artifactId>
+			<artifactId>javacl</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		...
+	</dependencies>
+	...
+</project>
+}}}
+  * [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ ScalaCL] (includes JavaCL)
+  {{{
+<project>
+	...
+	<dependencies>
+		...
+		<dependency>
+			<groupId>com.nativelibs4java</groupId>
+			<artifactId>scalacl</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		...
+	</dependencies>
+	...
+</project>
+}}}
+  * [http://nativelibs4java.sourceforge.net/projects/OpenCL4Java/ OpenCL4Java] (just the raw C bindings)
+  {{{
+<project>
+	...
+	<dependencies>
+		...
+		<dependency>
+			<groupId>com.nativelibs4java</groupId>
+			<artifactId>opencl4java</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
