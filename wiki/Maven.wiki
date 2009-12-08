@@ -12,68 +12,38 @@ If you wish to wrap your own native library for Java, you might want to have a l
 To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven repository], you need to add the following lines to your pom.xml :
 
 {{{
-<project>
-	...
-	<repositories>
 		<repository>
 		  <id>nativelibs4java</id>
 		  <url>http://nativelibs4java.sourceforge.net/maven</url>
 		</repository>
-	</repositories>
-	...
-</project>
 }}}
 
 = Usage = 
 
   * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl JavaCL] (includes OpenCL4Java)
   {{{
-<project>
-	...
-	<dependencies>
-		...
 		<dependency>
 			<groupId>com.nativelibs4java</groupId>
 			<artifactId>javacl</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
-		...
-	</dependencies>
-	...
-</project>
 }}}
   * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl ScalaCL] (includes JavaCL)
   {{{
-<project>
-	...
-	<dependencies>
-		...
 		<dependency>
 			<groupId>com.nativelibs4java</groupId>
 			<artifactId>scalacl</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
-		...
-	</dependencies>
-	...
-</project>
 }}}
   * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java/ OpenCL4Java] (just the raw C bindings)
   {{{
-<project>
-	...
-	<dependencies>
-		...
 		<dependency>
 			<groupId>com.nativelibs4java</groupId>
 			<artifactId>opencl4java</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
-		...
-	</dependencies>
-	...
-</project>
 }}}
