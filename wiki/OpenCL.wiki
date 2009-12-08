@@ -5,9 +5,9 @@
 
 = Download it ! =
 
-[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/OpenCL4Java/ Download OpenCL4Java + ScalaCL]
-
-Browse [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/apidocs/ OpenCL4Java's Javadoc] | [http://nativelibs4java.sourceforge.net/sites/OpenCL4Java/scaladocs/ ScalaCL's Scaladoc]
+|| JavaCL (natural and powerful Object-Oriented API) || OpenCL4Java (Raw C Bindings) || ScalaCL (OpenCL DSL) ||
+|| [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
+|| [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs Browse JavaDoc] || [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs Browse ScalaDoc] || [http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs Browse JavaDoc] || 
 
 [Maven Use with Maven].
 
