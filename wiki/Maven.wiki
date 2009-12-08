@@ -13,8 +13,12 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 
 {{{
 <repository>
-  <id>nativelibs4java</id>
+  <id>nativelibs4java-repo</id>
   <url>http://nativelibs4java.sourceforge.net/maven</url>
+</repository>
+<repository>
+  <id>jnaerator-repo</id>
+  <url>http://jnaerator.sourceforge.net/maven</url>
 </repository>
 }}}
 
