@@ -1,9 +1,11 @@
 #summary Java/Scala bindings for OpenCL (LGPL-licensed : commercial friendly)
 #labels NativeLib
 <wiki:toc max_depth="1" />
-<wiki:gadget url="http://jnaerator.googlecode.com/svn/wiki/adsense468x60.xml" border="0" width="468" height="60" />
 
 = Download it ! =
+
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp JavaCLDemo.png]
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp Demo]
 
 || [http://code.google.com/p/javacl JavaCL] (natural and powerful Object-Oriented API) || [http://code.google.com/p/scalacl ScalaCL] (OpenCL DSL) || OpenCL4Java (Raw C Bindings) ||
 || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
