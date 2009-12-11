@@ -2,10 +2,10 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-= Download it ! =
-
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp JavaCLDemo.png]
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp http://code.google.com/p/nativelibs4java/source/browse/wiki/JavaCLDemo.png]
 [http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp Demo]
+
+= Download it ! =
 
 || [http://code.google.com/p/javacl JavaCL] (natural and powerful Object-Oriented API) || [http://code.google.com/p/scalacl ScalaCL] (OpenCL DSL) || OpenCL4Java (Raw C Bindings) ||
 || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
