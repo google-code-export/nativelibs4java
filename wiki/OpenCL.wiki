@@ -2,7 +2,7 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp http://code.google.com/p/nativelibs4java/source/browse/wiki/JavaCLDemo.png]
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLDemo.png]
 [http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp Demo]
 
 = Download it ! =
