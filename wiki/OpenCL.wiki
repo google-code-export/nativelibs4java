@@ -2,9 +2,11 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLDemo.png]
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLDemo.png]
 
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL4Java/JavaCLDemos.jnlp Launch JavaCL Demo via Web Start]
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp Launch JavaCL Particles Demo via Web Start]
+
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp Launch JavaCL Hardware Report Demo via Web Start]
 
 = Download it ! =
 
