@@ -22,6 +22,7 @@
 <td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] |
 [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc]
+<br/> <br/> [http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLLemonParticles.PNG]
 </td><td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] |
 [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs ScalaDoc]
