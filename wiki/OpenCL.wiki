@@ -25,6 +25,8 @@
 <br/>
 [http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp Particles Demo]
 </td><td align="center">
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLHardwareReport.png]
+<br/>
 [http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp Hardware Report]
 </td></tr>
 </table>
