@@ -10,7 +10,7 @@
 
 = Download it ! =
 
-<table>
+<table border="1" width="80%">
 <tr>
 <td align="center"><font size="+2">[http://code.google.com/p/javacl JavaCL]</font><br/>(natural and powerful Object-Oriented API)
 </td><td align="center">
@@ -20,26 +20,17 @@
 </td>
 </tr><tr>
 <td align="center">
-[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download]
+[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] |
+[http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc]
 </td><td align="center">
-[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download]
+[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] |
+[http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs ScalaDoc]
 </td><td align="center">
-[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download]
-</td>
-</tr><tr>
-<td align="center">
-[http://nativelibs4java.sourceforge.net/sites/javacl/apidocs Browse JavaDoc]
-</td><td align="center">
-[http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs Browse ScalaDoc]
-</td><td align="center">
-[http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs Browse JavaDoc]
+[http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] |
+[http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs JavaDoc]
 </td>
 </tr>
 </table>
-
-|| <font size="+2">[http://code.google.com/p/javacl JavaCL]</font><br/>(natural and powerful Object-Oriented API) || <font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font><br/>(OpenCL DSL) || <font size="+2">OpenCL4Java</font><br/>(Raw C Bindings) ||
-|| [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
-|| [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs Browse JavaDoc] || [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs Browse ScalaDoc] || [http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs Browse JavaDoc] || 
 
 [Maven Use with Maven].
 
