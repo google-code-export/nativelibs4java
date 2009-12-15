@@ -10,10 +10,7 @@
 
 = Download it ! =
 
-|| <font size="+2">[http://code.google.com/p/javacl JavaCL]</font> \
-(natural and powerful Object-Oriented API) || <font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font> \
-(OpenCL DSL) || <font size="+2">OpenCL4Java</font>\
-(Raw C Bindings) ||
+|| <font size="+2">[http://code.google.com/p/javacl JavaCL]</font><br/>(natural and powerful Object-Oriented API) || <font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font><br/>(OpenCL DSL) || <font size="+2">OpenCL4Java</font><br/>(Raw C Bindings) ||
 || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] || [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/opencl4java Download] ||
 || [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs Browse JavaDoc] || [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs Browse ScalaDoc] || [http://nativelibs4java.sourceforge.net/sites/opencl4java/apidocs Browse JavaDoc] || 
 
