@@ -51,6 +51,7 @@ Related blog posts :
   * [http://ochafik.free.fr/blog/?p=296 OpenCL4Java v1.0-beta-1 released]
   * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
   * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
+  * [http://bbboblog.blogspot.com/2009/10/gpgpu-mandelbrot-with-opencl-and-java.html GPGPU Mandelbrot with OpenCL and Java]
 
 Example code :
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBasicTest.java OpenCL4JavaBasicTest.java]
