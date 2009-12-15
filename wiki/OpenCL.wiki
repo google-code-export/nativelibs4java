@@ -2,10 +2,6 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLDemo.png]
-
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp Launch JavaCL Particles Demo via Web Start]
-
 [http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp Launch JavaCL Hardware Report Demo via Web Start]
 
 = Download it ! =
@@ -22,7 +18,16 @@
 <td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl Download] |
 [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc]
-<br/> <br/> [http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLLemonParticles.PNG]
+<br/> <br/> 
+<table width="90%">
+<tr><td align="center">
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLLemonParticles.PNG]
+<br/>
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp Particles Demo]
+</td><td align="center">
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp Hardware Report]
+</td></tr>
+</table>
 </td><td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl Download] |
 [http://nativelibs4java.sourceforge.net/sites/scalacl/scaladocs ScalaDoc]
@@ -114,3 +119,5 @@ mvn com.jnaerator:maven-jnaerator-plugin:jnaerate
     {{{
 mvn package
 }}}
+
+[http://nativelibs4java.sourceforge.net/webstart/OpenCL/ParticlesDemo.jnlp http://nativelibs4java.googlecode.com/svn/wiki/JavaCLDemo.png]
