@@ -4,11 +4,11 @@
 
 = Download / Try it ! =
 
-<table cellpadding="20" border="1" width="80%">
+<table cellpadding="15" border="1" width="80%">
 <tr>
 <td align="center"><font size="+2">[http://code.google.com/p/javacl JavaCL]</font><br/><br/>(natural and powerful Object-Oriented API for high-performance computing)
 </td><td align="center">
-<font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font><br/><br/><(OpenCL DSL : write parallel expressions as you breathe)
+<font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font><br/><br/>(OpenCL DSL : write parallel expressions as you breathe)
 </td><td align="center">
 <font size="+2">OpenCL4Java</font><br/><br/>(raw C-style bindings that power JavaCL)
 </td>
