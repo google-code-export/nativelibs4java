@@ -97,12 +97,12 @@ OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_
   * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
   * Other systems : 
     * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html beta OpenCL-enabled drivers]
-    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 3 or 4]
+    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 4]
 
 This has been successfully tested on :
   * MacOS X Snow Leopard
-  * Windows + ATI Stream 2 beta 3 (32 bits)
-  * Windows + NVidia beta drivers
+  * Windows + ATI Stream 2 beta 3 and 4 (32 bits)
+  * Windows + NVidia beta drivers (versions 190.38 to 195.62)
 
 = Build it... =
 
