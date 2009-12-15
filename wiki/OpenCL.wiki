@@ -57,6 +57,9 @@ Example code :
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/ScalaCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/java/com/nativelibs4java/opencl/demos/ParticlesDemo.java ParticlesDemo.java]
 
+Mailing list :
+  * [http://groups.google.fr/group/nativelibs4java/ NativeLibs4Java's Google Group]
+
 = What is OpenCL4Java ? =
 
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
