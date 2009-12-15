@@ -2,8 +2,6 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-[http://nativelibs4java.sourceforge.net/webstart/OpenCL/HardwareReport.jnlp Launch JavaCL Hardware Report Demo via Web Start]
-
 = Download it ! =
 
 <table border="1" width="80%">
