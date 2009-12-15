@@ -2,7 +2,7 @@
 #labels NativeLib
 <wiki:toc max_depth="1" />
 
-= Download it ! =
+= Download / Try it ! =
 
 <table border="1" width="80%">
 <tr>
