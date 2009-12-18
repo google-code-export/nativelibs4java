@@ -55,7 +55,7 @@ Related blog posts :
 Example code :
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/JavaCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBasicTest.java OpenCL4JavaBasicTest.java]
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/JavaCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmarkTest.java OpenCL4JavaBenchmark.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/java/com/nativelibs4java/opencl/demos/particles/ParticlesDemo.java ParticlesDemo.java] | [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/opencl/com/nativelibs4java/opencl/demos/particles/ParticlesDemoProgram.cl ParticlesDemoProgram.cl]
+  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/java/com/nativelibs4java/opencl/demos/particles/ParticlesDemo.java ParticlesDemo.java] | [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/opencl/com/nativelibs4java/opencl/demos/particles/ParticlesDemoProgram.c ParticlesDemoProgram.c]
   * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/ScalaCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
 
 Mailing list :
