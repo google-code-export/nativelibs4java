@@ -42,6 +42,8 @@
 
 = Quick Start = 
 
+Documentation :
+  * [http://code.google.com/p/javacl/wiki/CallingOpenCLKernelsFromJava Calling OpenCL Kernels from Java]
 Related blog posts :
   * [http://www.pixelnerve.com/v/2009/10/30/opencl-4-java/ JavaCL from within Processing 1.0]
   * [http://bbboblog.blogspot.com/2009/10/gpgpu-mandelbrot-with-opencl-and-java.html GPGPU Mandelbrot with OpenCL and Java]
