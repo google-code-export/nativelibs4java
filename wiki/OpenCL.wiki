@@ -113,6 +113,16 @@ This has been successfully tested on :
 = Build it... =
 
   * First, [http://maven.apache.org/download.html install Maven].
+  * Then, install JOGL 2.x if you want automatic tests to pass. 
+  This is tricky : you need to extract *some* of the files from the [http://download.java.net/media/jogl/builds/nightly/ archive that matches your platform] to the extension directory of your JRE (jre6/lib/ext), but not all of them.
+  Typically, you'll need :
+    * jogl.all.jar
+    * gluegen-rt.jar
+    * gluegen-rt.dll / .so / .dylib
+    * nativewindow.all.jar
+    * nativewindow_awt.dll / .so / .dylib
+    * nativewindow_jvm.dll / .so / .dylib
+  Yeah, that sucks.
   * Checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries nativelibs4java files] :
     {{{
 svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries nativelibs4java
