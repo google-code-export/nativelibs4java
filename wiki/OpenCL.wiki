@@ -71,7 +71,7 @@ Screenshots :
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
 NativeLibs4Java provide three levels of Java bindings for OpenCL :
-  * JavaCL : Thin [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCL/target/site/apidocs/com/nativelibs4java/opencl/OpenCL4Java.html Object-Oriented wrappings] that hide away the complexity of the C-style wrappings and bring facilities in (array reduction support, OpenGL interop...)
+  * [http://code.google.com/p/javacl JavaCL (graduated to its own project)] : Object-Oriented wrappings that hide away the complexity of the OpenCL API and bring facilities in (array reduction support, OpenGL interop...)
   {{{
 CLContext context = JavaCL.createBestContext();
 CLProgram program = context.createProgram(myKernelSource).build();
@@ -103,15 +103,7 @@ OpenCLLibrary.INSTANCE.clGetDeviceIDs(null, CL_DEVICE_TYPE_GPU | CL_DEVICE_TYPE_
 
 = Requirements =
 
-  * Macintosh : [http://www.apple.com/macosx/ MacOS X 10.6 Snow Leopard] (CPU and/or any supported GPU)
-  * Other systems : 
-    * NVIDIA GPU : [http://www.nvidia.com/object/cuda_opencl.html beta OpenCL-enabled drivers]
-    * ATI GPU or _any SSE3-capable CPU_ (Windows, Linux) : [http://developer.amd.com/GPU/ATISTREAMSDKBETAPROGRAM/Pages/default.aspx ATI's Stream SDK beta 4]
-
-This has been successfully tested on :
-  * MacOS X Snow Leopard
-  * Windows + ATI Stream 2 beta 3 and 4 (32 bits)
-  * Windows + NVidia beta drivers (versions 190.38 to 195.62)
+Please read [http://code.google.com/p/javacl/wiki/HardwareRequirements JavaCL's hardware requirements page]
 
 = Build it... =
 
