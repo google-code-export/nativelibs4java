@@ -43,7 +43,8 @@
 = Quick Start = 
 
 Documentation :
-  * [http://code.google.com/p/javacl/wiki/CallingOpenCLKernelsFromJava Calling OpenCL Kernels from Java]
+  * [http://code.google.com/p/javacl/wiki/SharingDataWithOpenGL Create an OpenGL-compatible OpenCL context]
+  * [http://code.google.com/p/javacl/wiki/CallingOpenCLKernelsFromJava Call OpenCL Kernels from Java]
   * [OpenCLContextPooling Introduction on OpenCL context pooling]
 Release notes :
   * [http://ochafik.free.fr/blog/?p=317 OpenCL4Java v1.0-beta-3 released]
