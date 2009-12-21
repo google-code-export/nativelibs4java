@@ -66,7 +66,7 @@ Mailing list :
 Screenshots :
   * [http://www.flickr.com/photos/tator82/sets/72157622877517625/ JavaCL Gallery on Flickr]
 
-= What is OpenCL4Java ? =
+= What is JavaCL / ScalaCL / OpenCL4Java ? =
 
 [http://www.khronos.org/opencl/ OpenCL] is the first open, royalty-free standard for cross-platform, parallel programming of modern processors and GPUs.
 
