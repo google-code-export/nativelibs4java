@@ -1,0 +1,15 @@
+-ifRegexMatch
+	os.name
+	"Mac OS X"
+	"$(DIR)/OpenCL.MacOSX.jnaerator"
+	"$(DIR)/OpenCL.OtherPlatforms.jnaerator"
+	//"$(DIR)/OpenCL.Win32ATIStream.jnaerator"
+	
+	-noMangling
+	-noJar -noComp
+	//-o "$(DIR)/../../../target/generated-sources/java"
+	
+//-choicesOut "$(DIR)/OpenCL.choices"
+-v
+
+-onlineDoc "Khronos Documentation for {0}" "http://www.khronos.org/opencl/sdk/1.0/docs/man/xhtml/{0}.html"

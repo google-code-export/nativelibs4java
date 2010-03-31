@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nativelibs4java</groupId>
+  <artifactId>bridj</artifactId>
+  <name>BridJ (NativeLibs4Java C/C++ Interop Layer)</name>
+  <url>http://code.google.com/p/nativelibs4java/wiki/Runtime</url>
+  <version>${nl4j-runtime.version}</version>
+  <packaging>jar</packaging>
+
+  
+  <properties>
+  	<maven.compiler.debug>true</maven.compiler.debug>
+  </properties>
+
+  <parent>
+	  <groupId>com.nativelibs4java</groupId>
+	  <artifactId>nl4j-runtime-parent</artifactId>
+	  <version>0.1-SNAPSHOT</version>
+	  <relativePath>../Parent</relativePath>
+  </parent>
+
+  <dependencies>
+
+  	<dependency>
+		<groupId>asm</groupId>
+		<artifactId>asm</artifactId>
+		<version>3.2</version>
+	</dependency>
+  
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.7</version>
+		  <scope>test</scope>
+		</dependency>
+	
+  	<dependency>
+      <groupId>com.ochafik</groupId>
+      <artifactId>ochafik-util</artifactId>
+      <version>${jnaerator.version}</version>
+      <scope>test</scope>
+    </dependency>
+	
+	
+	<dependency>
+      <groupId>com.jnaerator</groupId>
+      <artifactId>jna-jnaerator</artifactId>
+      <version>${jna.version}</version>
+      <scope>provided</scope>
+    </dependency>
+	
+  </dependencies>
+
+  <build>
+  	<plugins>
+
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-shade-plugin</artifactId>
+			<version>1.2.2</version>
+			<executions>
+			  <execution>
+				<phase>package</phase>
+				<goals>
+				  <goal>shade</goal>
+				</goals>
+				<configuration>
+					<!--shadedArtifactAttached>true</shadedArtifactAttached-->
+					<artifactSet>
+						<excludes>
+						  <exclude>org.scala-lang:scala-library</exclude>
+						  <exclude>org.slf4j:slf4j-jdk14</exclude>
+						  <exclude>junit:junit</exclude>
+						</excludes>
+					  </artifactSet>
+				</configuration>
+			  </execution>
+			</executions>
+		</plugin>
+		
+		<!--project>
+		  <build>
+			<plugins>
+			  <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+				   
+				</configuration>
+			  </plugin>
+			</plugins>
+		  </build>
+		</project-->
+
+		<plugin>
+			<groupId>com.nativelibs4java</groupId>
+			<artifactId>maven-velocity-plugin</artifactId>
+			<version>${nl4j-runtime.version}</version>
+			<executions>
+			  <execution>
+				<phase>generate-sources</phase>
+				<goals>
+				  <goal>compile</goal>
+				</goals>
+			  </execution>
+			</executions>
+		</plugin>
+  	 <plugin>
+  	  <groupId>org.apache.maven.plugins</groupId>
+  	  <artifactId>maven-compiler-plugin</artifactId>
+  	  <version>2.0.2</version>
+  	  <configuration>
+  	   <debug>true</debug>
+  	  </configuration>
+  	 </plugin>
+  	</plugins>
+
+  </build>
+</project>
+
+
+
+
