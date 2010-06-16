@@ -6,7 +6,7 @@
 
 <table cellpadding="15" border="1" width="80%">
 <tr>
-<td align="center"><font size="+2">[http://code.google.com/p/javacl JavaCL]</font><br/><br/>(natural and powerful Object-Oriented API for high-performance computing)
+<td align="center"><font size="+2">[http://code.google.com/p/javacl JavaCL]<br/>(has its own sub-project)</font><br/><br/>(natural and powerful Object-Oriented API for high-performance computing)
 </td><td align="center">
 <font size="+2">[http://code.google.com/p/scalacl ScalaCL]</font><br/><br/>(OpenCL DSL : write parallel expressions as you breathe)
 </td><td align="center">
@@ -16,6 +16,7 @@
 <td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl/1.0-SNAPSHOT/javacl-1.0-SNAPSHOT-shaded.jar Download] |
 [http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc] |
+[Maven] |
 [http://code.google.com/p/javacl/wiki/FAQ FAQ]
 <br/> <br/> 
 <table width="90%">
@@ -38,34 +39,6 @@
 </td>
 </tr>
 </table>
-
-[Maven Use with Maven].
-
-= Quick Start = 
-
-Documentation :
-  * [http://code.google.com/p/javacl/wiki/SharingDataWithOpenGL Create an OpenGL-compatible OpenCL context]
-  * [http://code.google.com/p/javacl/wiki/CallingOpenCLKernelsFromJava Call OpenCL Kernels from Java]
-  * [http://code.google.com/p/javacl/wiki/UnderstandOpenCLKernelArguments Understand OpenCL Kernel Arguments]
-  * [OpenCLContextPooling Introduction on OpenCL context pooling (advanced users)]
-Release notes :
-  * [http://ochafik.free.fr/blog/?p=317 OpenCL4Java v1.0-beta-3 released]
-  * [http://ochafik.free.fr/blog/?p=308 OpenCL4Java v1.0-beta-2 released]
-  * [http://ochafik.free.fr/blog/?p=296 OpenCL4Java v1.0-beta-1 released]
-Blog entries :
-  * [http://www.pixelnerve.com/v/2009/10/30/opencl-4-java/ JavaCL from within Processing 1.0]
-  * [http://bbboblog.blogspot.com/2009/10/gpgpu-mandelbrot-with-opencl-and-java.html GPGPU Mandelbrot with OpenCL and Java]
-  * [http://ochafik.free.fr/blog/?p=190 OpenCL4Java: Build high-performance OpenCL code with Java (and stay calm)]
-  * [http://ochafik.free.fr/blog/?p=207 ScalaCL: Reap OpenCL’s benefits without learning its syntax (Scala DSL for transparently parallel computations)]
-Example code :
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/JavaCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBasicTest.java OpenCL4JavaBasicTest.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/JavaCL/src/test/java/com/nativelibs4java/opencl/OpenCL4JavaBenchmarkTest.java OpenCL4JavaBenchmark.java]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/java/com/nativelibs4java/opencl/demos/particles/ParticlesDemo.java ParticlesDemo.java] | [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/opencl/com/nativelibs4java/opencl/demos/particles/ParticlesDemoProgram.c ParticlesDemoProgram.c] | [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/Demos/src/main/opencl/com/nativelibs4java/opencl/demos/particles/HSVtoRGB.c HSVtoRGB.c]
-  * [http://code.google.com/p/nativelibs4java/source/browse/trunk/libraries/OpenCL/ScalaCL/src/main/scala/scalacl/ScalaCLTest.scala ScalaCLTest.scala]
-Mailing list :
-  * [http://groups.google.fr/group/nativelibs4java/ NativeLibs4Java's Google Group]
-Screenshots :
-  * [http://www.flickr.com/photos/tator82/sets/72157622877517625/ JavaCL Gallery on Flickr]
 
 = What is JavaCL / ScalaCL / OpenCL4Java ? =
 
