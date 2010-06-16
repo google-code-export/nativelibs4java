@@ -15,7 +15,8 @@
 </tr><tr>
 <td align="center">
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/javacl/1.0-SNAPSHOT/javacl-1.0-SNAPSHOT-shaded.jar Download] |
-[http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc]
+[http://nativelibs4java.sourceforge.net/sites/javacl/apidocs JavaDoc] |
+[http://code.google.com/p/javacl/wiki/FAQ FAQ]
 <br/> <br/> 
 <table width="90%">
 <tr><td align="center">
