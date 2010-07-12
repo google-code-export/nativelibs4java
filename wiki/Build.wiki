@@ -1,3 +1,4 @@
 #summary How to build NativeLibs4Java
+#labels Featured
 
 [http://code.google.com/p/javacl/wiki/Build Instructions are here]
