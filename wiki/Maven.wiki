@@ -47,3 +47,21 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 	<scope>compile</scope>
 </dependency>
 }}}
+  * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/bridj/ BridJ] (see [http://bridj.googlecode.com project page])
+  {{{
+<dependency>
+	<groupId>com.nativelibs4java</groupId>
+	<artifactId>bridj</artifactId>
+	<version>0.1</version>
+	<scope>compile</scope>
+</dependency>
+}}}
+  * BridJ-powered JavaCL (experimental)
+  {{{
+<dependency>
+	<groupId>com.nativelibs4java</groupId>
+	<artifactId>javacl-bridj</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<scope>compile</scope>
+</dependency>
+}}}
