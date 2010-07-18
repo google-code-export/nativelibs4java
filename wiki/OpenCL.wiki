@@ -14,10 +14,10 @@
 [http://javacl.googlecode.com JavaCL graduated to its own project] !
 </td>
 </tr>
-<table>
+</table>
 
 </td>
 </tr>
-<table>
+</table>
 
 (Its sources are still hosted on NativeLibs4Java repository)
