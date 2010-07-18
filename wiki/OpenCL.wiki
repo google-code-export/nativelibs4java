@@ -5,7 +5,7 @@
 <tr>
 <td>
 
-<table border="0" cellspan="5">
+<table border="0" cellspan="30">
 <tr>
 <td>
 [http://javacl.googlecode.com http://nativelibs4java.googlecode.com/svn/wiki/JavaCLLemonParticles.PNG]
