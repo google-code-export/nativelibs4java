@@ -1,6 +1,6 @@
 #summary Frequently Asked Questions
 
-Please one of the following sub-projects' FAQ :
+Please look at the following sub-projects' FAQs :
   * [http://code.google.com/p/jnaerator/wiki/JNAeratorFAQ JNAerator]
   * [http://code.google.com/p/bridj/wiki/FAQ BridJ]
   * [http://code.google.com/p/javacl/wiki/FAQ JavaCL]
