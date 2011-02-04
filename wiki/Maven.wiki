@@ -25,16 +25,7 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 <dependency>
 	<groupId>com.nativelibs4java</groupId>
 	<artifactId>javacl</artifactId>
-	<version>1.0-beta-5</version>
-	<scope>compile</scope>
-</dependency>
-}}}
-  * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/scalacl ScalaCL] (includes JavaCL)
-  {{{
-<dependency>
-	<groupId>com.nativelibs4java</groupId>
-	<artifactId>scalacl</artifactId>
-	<version>1.0-beta-5</version>
+	<version>1.0-beta-6</version>
 	<scope>compile</scope>
 </dependency>
 }}}
@@ -43,7 +34,7 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 <dependency>
 	<groupId>com.nativelibs4java</groupId>
 	<artifactId>opencl4java</artifactId>
-	<version>1.0-beta-5</version>
+	<version>1.0-beta-6</version>
 	<scope>compile</scope>
 </dependency>
 }}}
@@ -52,7 +43,7 @@ To use [http://nativelibs4java.sourceforge.net/maven NativeLibs4Java's Maven rep
 <dependency>
 	<groupId>com.nativelibs4java</groupId>
 	<artifactId>bridj</artifactId>
-	<version>0.1</version>
+	<version>0.3</version>
 	<scope>compile</scope>
 </dependency>
 }}}
