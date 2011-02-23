@@ -1,8 +1,12 @@
 #summary Links to NL4J downloads
 #labels Featured
 
-[http://code.google.com/p/javacl/downloads/list JavaCL / ScalaCL / OpenCL4Java downloads]
+[http://code.google.com/p/javacl/downloads/list JavaCL / OpenCL4Java downloads]
+
+[http://code.google.com/p/scalacl/downloads/list ScalaCL downloads]
 
 [http://code.google.com/p/jnaerator/downloads/list JNAerator downloads]
+
+[http://code.google.com/p/bridj/downloads/list BridJ downloads]
 
 [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/ Other NL4J downloads]
