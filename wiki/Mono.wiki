@@ -13,9 +13,29 @@ A very cool feature of Mono is its [http://www.mono-project.com/Embedding_Mono E
 
 = Downloads =
 
-Binary download : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar] (contains Java sources, their compiled classes and the JNAerator runtime - including JNA).
+You can download [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/mono4java/ Mono4Java Maven artifacts from here], or use it from a Maven project with the following dependency :
+{{{
+<project>
+  ...
+  <repositories>
+    ...
+    <repository>
+      <id>nativelibs4java</id>
+      <name>nativelibs4java Maven2 Repository</name>
+      <url>http://nativelibs4java.sourceforge.net/maven</url>
+    </repository>
+  </repositories>
 
-You can also browse the [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/doc/index.html online JavaDoc].
+  <dependencies>
+    <dependency>
+      <groupId>com.nativelibs4java</groupId>
+      <artifactId>mono4java</artifactId>
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+  ...
+</project>
+}}}
 
 = Quickstart =
 
@@ -25,19 +45,6 @@ It explains how to use the [http://code.google.com/p/nativelibs4java/source/brow
 
 = Building =
 
-First, checkout [http://code.google.com/p/nativelibs4java/source/browse/#svn/trunk/libraries/Mono Mono's project file from nativelibs4java] :
-{{{
-svn checkout http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/ Mono
-}}}
+See the [Build] page. After a full build of all of NativeLibs4Java's source tree, Mono4Java's artifacts are in `libraries/Mono/Mono4Java/target`.
 
-Go to the `Mono` directory and download JNAerator :
-{{{
-wget http://ochafik.free.fr/Java/jnaerator.jar
-}}}
-
-Then launch JNAerator :
-{{{
-java -jar jnaerator.jar Mono.jnaerator
-}}}
-
-You'll get a neat [http://nativelibs4java.googlecode.com/svn/trunk/libraries/Mono/Mono.jar Mono.jar library wrapper such as this one].
+The bindings can be re-generated with `mvn jnaerator:jnaerate` in the Mono4Java directory.
