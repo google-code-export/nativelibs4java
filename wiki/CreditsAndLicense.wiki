@@ -8,9 +8,13 @@ This adds to the JNAerator runtime, which is composed of :
  * [https://rococoa.dev.java.net/ Rococoa] (LGPL license, Copyright Duncan McGregor, Harald Kuhr, David Kocher)
  * [http://jnaerator.googlecode.com/ JNAerator supporting classes] : Copyright (c) Olivier Chafik 2008-2009
 
-Here's a link to the credit info for JNAerator itself :
+Here's a link to the credit info for JNAerator :
 
 [http://code.google.com/p/jnaerator/wiki/CreditsAndLicense CreditsAndLicense (on JNAerator's project)]
+
+Here's a link to the credit info for BridJ :
+
+[http://code.google.com/p/bridj/wiki/CreditsAndLicense CreditsAndLicense (on BridJ's project)]
 
 
 TODO
