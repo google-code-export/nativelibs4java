@@ -6,4 +6,4 @@ Here are links to the Download pages of some NativeLibs4Java subprojects :
   * [http://code.google.com/p/scalacl/downloads/list ScalaCL]
   * [http://code.google.com/p/jnaerator/downloads/list JNAerator]
   * [http://code.google.com/p/bridj/downloads/list BridJ]
-  * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/ Other NL4J]
+  * [http://nativelibs4java.sourceforge.net/maven/com/nativelibs4java/ NativeLibs4Java's artifacts in Maven repository]
