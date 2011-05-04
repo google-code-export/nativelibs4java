@@ -6,7 +6,7 @@ NativeLibs4Java contains a few subprojects :
 = Support sub-projects =
 
   * [http://code.google.com/p/jnaerator/ JNAerator] : see [http://code.google.com/p/jnaerator/wiki/CreditsAndLicense JNAerator's License / Credit info]
-  * http://code.google.com/p/bridj/ BridJ] : see [http://code.google.com/p/bridj/wiki/CreditsAndLicense BridJ's License / Credit info]
+  * [http://code.google.com/p/bridj/ BridJ] : see [http://code.google.com/p/bridj/wiki/CreditsAndLicense BridJ's License / Credit info]
 
 = Bindings sub-projects =
 
