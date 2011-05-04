@@ -1,22 +1,15 @@
 #summary Credits, License & Copyright notices
 #labels Featured
 
-The library wrappers are derived works of the original libraries, as they are automatic conversion from (Objective)C to Java that even preserve comments.
+NativeLibs4Java contains a few subprojects :
 
-This adds to the JNAerator runtime, which is composed of :
- * [http://jna.dev.java.net/ Java Native Access (JNA)] (LGPL license, Copyright (c) 2006-2009 Todd Fast, Timothy Wall, Wayne Meissner & others)
- * [https://rococoa.dev.java.net/ Rococoa] (LGPL license, Copyright Duncan McGregor, Harald Kuhr, David Kocher)
- * [http://jnaerator.googlecode.com/ JNAerator supporting classes] : Copyright (c) Olivier Chafik 2008-2009
+= Support sub-projects =
 
-Here's a link to the credit info for JNAerator :
+  * [http://code.google.com/p/jnaerator/ JNAerator] : see [http://code.google.com/p/jnaerator/wiki/CreditsAndLicense JNAerator's License / Credit info]
+  * http://code.google.com/p/bridj/ BridJ] : see [http://code.google.com/p/bridj/wiki/CreditsAndLicense BridJ's License / Credit info]
 
-[http://code.google.com/p/jnaerator/wiki/CreditsAndLicense CreditsAndLicense (on JNAerator's project)]
+= Bindings sub-projects =
 
-Here's a link to the credit info for BridJ :
-
-[http://code.google.com/p/bridj/wiki/CreditsAndLicense CreditsAndLicense (on BridJ's project)]
-
-
-TODO
-
-Copy licenses here !
+  * http://code.google.com/p/scalacl/ ScalaCL] : same license as BridJ (see [http://code.google.com/p/scalacl/wiki/FAQ ScalaCL's FAQ])
+  * [http://code.google.com/p/javacl/ JavaCL] : the original JavaCL is under LGPL, and the BridJ port is under BSD license
+  * FFMpeg, WinRAR, Mono, BeaEngine, PThread and OpenCV subprojects : each can be assumed to bear the same license as its target library, as they're mostly auto-generated bindings and hence can be considered to be derived works of the native libraries' headers
