@@ -2,7 +2,8 @@
 #labels Featured
 
 NativeLibs4Java contains a few subprojects.
-If you're in doubt concerning any of them or need specific licensing, please [http://groups.google.com/group/nativelibs4java ask on the list].
+
+If you're in doubt concerning any of them or need specific licensing options (not available for all parts), please [http://groups.google.com/group/nativelibs4java ask on the list].
 
 = Support sub-projects =
 
