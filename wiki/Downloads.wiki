@@ -1,7 +1,7 @@
 #summary Links to NL4J downloads
 #labels Featured
 
-Here are links to the Download page for some NativeLibs4Java subprojects :
+Here are links to the Download pages of some NativeLibs4Java subprojects :
   * [http://code.google.com/p/javacl/downloads/list JavaCL / OpenCL4Java]
   * [http://code.google.com/p/scalacl/downloads/list ScalaCL]
   * [http://code.google.com/p/jnaerator/downloads/list JNAerator]
