@@ -1,7 +1,8 @@
 #summary Credits, License & Copyright notices
 #labels Featured
 
-NativeLibs4Java contains a few subprojects :
+NativeLibs4Java contains a few subprojects.
+If you're in doubt concerning any of them or need specific licensing, please [http://groups.google.com/group/nativelibs4java ask on the list].
 
 = Support sub-projects =
 
@@ -12,4 +13,4 @@ NativeLibs4Java contains a few subprojects :
 
   * [http://code.google.com/p/scalacl/ ScalaCL] : same license as BridJ (see [http://code.google.com/p/scalacl/wiki/FAQ ScalaCL's FAQ])
   * [http://code.google.com/p/javacl/ JavaCL] : the original JavaCL is under LGPL, and the BridJ port is under BSD license
-  * FFMpeg, WinRAR, Mono, BeaEngine, PThread and OpenCV subprojects : each can be assumed to bear the same license as its target library, as they're mostly auto-generated bindings and hence can be considered to be derived works of the native libraries' headers. In doubt, please [http://groups.google.com/group/nativelibs4java ask on the list].
+  * FFMpeg, WinRAR, Mono, BeaEngine, PThread and OpenCV subprojects : each can be assumed to bear the same license as its target library, as they're mostly auto-generated bindings and hence can be considered to be derived works of the native libraries' headers.
