@@ -2,7 +2,9 @@ name := "scalacl-compiler-plugin"
 
 version := "0.3-SNAPSHOT"
 
-//fork := true
+mainClass := Some("scalacl.plugin.Compile")
+
+fork := false
 
 organization := "com.nativelibs4java"
 
@@ -17,6 +19,6 @@ libraryDependencies ++= Seq(
 	"org.scala-lang" % "scala-compiler" % "2.9.0",
 	"org.scala-lang" % "scala-library" % "2.9.0",
   	//"com.nativelibs4java" % "javacl" % "1.0.0-RC1",
-	"com.nativelibs4java" % "scalacl" % "0.3-SNAPSHOT" classifier "shaded",
+	//"com.nativelibs4java" % "scalacl" % "0.3-SNAPSHOT" classifier "shaded",
 	"com.novocode" % "junit-interface" % "0.5" % "test->default"
 )
