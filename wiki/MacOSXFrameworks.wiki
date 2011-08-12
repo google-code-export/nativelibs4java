@@ -27,7 +27,7 @@ Sources of modified Rococoa (TODO test modifications with auto-tests & submit to
 
 = Building =
 
-Download [http://nativelibs4java.googlecode.com/svn/trunk/libraries/MacOSXFrameworks/config.jnaerator MacOSXFrameworks' config.jnaerator], then type :
+Download [https://github.com/ochafik/nativelibs4java/tree/master/libraries/MacOSXFrameworks/config.jnaerator MacOSXFrameworks' config.jnaerator], then type :
 
 {{{
 java -Xmx1000m -jar jnaerator.jar

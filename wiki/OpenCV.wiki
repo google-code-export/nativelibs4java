@@ -15,14 +15,14 @@ BSD-style : [http://opencvlibrary.svn.sourceforge.net/viewvc/opencvlibrary/trunk
 
 Sources available from [http://sourceforge.net/projects/opencvlibrary/ OpenCV's SourceForge Project].
 
-Java wrappers with self-extracting binaries for MacOSX and Windows 32bits : [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/OpenCV.jar OpenCV.jar]
+Java wrappers with self-extracting binaries for MacOSX and Windows 32bits : [https://github.com/ochafik/nativelibs4java/tree/master/libraries/OpenCV/OpenCV.jar OpenCV.jar]
 
 = Building =
 
  * Download [http://sourceforge.net/projects/opencvlibrary/ OpenCV sources] and unzip / untar them
  * Put the following files in the top OpenCV directory :
-    * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/makeMacOSXFatBinaries.sh makeMacOSXFatBinaries.sh] (MacOSX only)
-    * [http://nativelibs4java.googlecode.com/svn/trunk/libraries/OpenCV/config.jnaerator config.jnaerator]
+    * [https://github.com/ochafik/nativelibs4java/tree/master/libraries/OpenCV/makeMacOSXFatBinaries.sh makeMacOSXFatBinaries.sh] (MacOSX only)
+    * [https://github.com/ochafik/nativelibs4java/tree/master/libraries/OpenCV/config.jnaerator config.jnaerator]
  * Open a command-line shell and go to the top OpenCV directory
  * On MacOSX : {{{ sh makeMacOSXFatBinaries.sh }}} to create fat binaries of OpenCV
  * {{{ java -jar jnaerator.jar }}}
