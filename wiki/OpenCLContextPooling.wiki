@@ -123,3 +123,5 @@ do this, but I thought it made it more difficult to understand.
 
 For more info 
 http://www.javaconcurrencyinpractice.com/
+
+(page kindly contributed by  Jeffrey C Palmer)
